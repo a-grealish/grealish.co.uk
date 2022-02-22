@@ -1,0 +1,48 @@
+baseURL = "https://grealish.co.uk/"
+languageCode = "en-US"
+title = "Ashley Grealish"
+# Enable comments by entering your Disqus shortname
+
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "/img/headshot.jpg"
+  author = "Ashley Grealish"
+  description = "About Me"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "a-grealish"
+  # Email         = "email@example.com"
+  # Twitter       = "username"
+  LinkedIn      = "username"
+  # Stackoverflow = "username"
+  # Medium        = "username"
+  # Telegram      = "username"
+  RSS           = "/blog/index.xml"
+
+## Main Menu
+[[menu.main]]
+  name = "about"
+  identifier = "about"
+  weight = 100
+  url = "/about/"
+[[menu.main]]
+  name = "blog"
+  weight = 200
+  identifier = "blog"
+  url = "https://blog.grealish.co.uk"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 300
+  url = "/projects/"
