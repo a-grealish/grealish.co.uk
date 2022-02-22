@@ -1,11 +1,12 @@
 baseURL = "https://grealish.co.uk/"
-languageCode = "en-US"
+languageCode = "en-GB"
 title = "Ashley Grealish"
 # Enable comments by entering your Disqus shortname
 
-disqusShortname = ""
+# TODO - what is disqus? Commenting?
+# disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+# googleAnalytics = ""
 theme = "hugo-sustain"
 
 [permalinks]
@@ -24,7 +25,7 @@ theme = "hugo-sustain"
   Github        = "a-grealish"
   # Email         = "email@example.com"
   # Twitter       = "username"
-  LinkedIn      = "username"
+  LinkedIn      = "agrealish"
   # Stackoverflow = "username"
   # Medium        = "username"
   # Telegram      = "username"
@@ -36,6 +37,8 @@ theme = "hugo-sustain"
   identifier = "about"
   weight = 100
   url = "/about/"
+# TODO - Either fix broken link - or migrate wordpress to here and start a new blog
+# Also check the RSS Feed above
 [[menu.main]]
   name = "blog"
   weight = 200
