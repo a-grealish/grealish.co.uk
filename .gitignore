@@ -1,3 +1,6 @@
 # Hugo build and temp files
 .hugo*
 /public/*
+
+# OS Specific
+.DS_STORE
