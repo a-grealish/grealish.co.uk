@@ -20,7 +20,7 @@ jobs:
           HUGO_VERSION: 0.92.2
           TARGET_REPO: a-grealish/a-grealish.github.io
           TARGET_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
           # Custom args not needed 
           # HUGO_ARGS: '-t hugo-sustain' 
           CNAME: grealish.co.uk
