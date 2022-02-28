@@ -13,14 +13,14 @@ jobs:
         uses: actions/checkout@v1
         #with:
         #  submodules: true  # Fetch Hugo themes
-
+ 
       - name: Deploy the site
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
           HUGO_VERSION: 0.92.2
           TARGET_REPO: a-grealish/a-grealish.github.io
           TARGET_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+          GITHUB_TOKEN: ${{ env.DEPLOY_TOKEN }}
           # Custom args not needed 
           # HUGO_ARGS: '-t hugo-sustain' 
           CNAME: grealish.co.uk
