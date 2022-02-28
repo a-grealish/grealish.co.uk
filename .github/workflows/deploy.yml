@@ -12,7 +12,8 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v1
         with:
-         submodules: true  # Fetch Hugo themes
+          # Fetch Hugo themes
+          submodules: true  
  
       - name: Deploy the site
         uses: benmatselby/hugo-deploy-gh-pages@master
