@@ -1,8 +1,13 @@
 name: Push to GitHub Pages on push to main
+
 on:
   push:
     branches:
       - main
+
+env:
+  # Override the default GITHUB_TOKEN to allow deploy to another repo
+  GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
 
 jobs:
   build:
@@ -18,8 +23,6 @@ jobs:
       - name: Deploy the site
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
-          # Override the default GITHUB_TOKEN to allow deploy to another repo
-          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
           HUGO_VERSION: 0.92.2
           TARGET_REPO: a-grealish/a-grealish.github.io
           TARGET_BRANCH: main
