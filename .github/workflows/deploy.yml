@@ -20,6 +20,7 @@ jobs:
           TARGET_REPO: a-grealish/a-grealish.github.io
           TARGET_BRANCH: main
           TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Custom args not needed 
           # HUGO_ARGS: '-t hugo-sustain' 
           CNAME: grealish.co.uk
