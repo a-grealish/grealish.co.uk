@@ -15,10 +15,10 @@ theme = "hugo-sustain"
 [params]
   avatar = "/img/headshot.jpg"
   author = "Ashley Grealish"
-  description = "About Me"
+  description = "About Ashley Grealish - Enginering Leader using tech for good"
 
   # Custom assets can be linked with their paths relative to static/
-  custom_css = []
+  custom_css = ["main.css"]
   custom_js  = []
 
 [params.social]
@@ -29,23 +29,21 @@ theme = "hugo-sustain"
   # Stackoverflow = "username"
   # Medium        = "username"
   # Telegram      = "username"
-  RSS           = "/blog/index.xml"
+  # RSS           = "/blog/index.xml"
 
 ## Main Menu
 [[menu.main]]
-  name = "about"
+  name = "My Work"
   identifier = "about"
   weight = 100
   url = "/about/"
-# TODO - Either fix broken link - or migrate wordpress to here and start a new blog
-# Also check the RSS Feed above
+[[menu.main]]
+  name = "Side Projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
 [[menu.main]]
   name = "blog"
-  weight = 200
+  weight = 300
   identifier = "blog"
   url = "https://blog.grealish.co.uk"
-[[menu.main]]
-  name = "projects"
-  identifier = "projects"
-  weight = 300
-  url = "/projects/"

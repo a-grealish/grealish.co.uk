@@ -1,0 +1,8 @@
+/* Make the profile picture much smaller with less space above */
+.avatar {
+  padding-top: 2vh;
+}
+
+.avatar img {
+  width: 25%;
+}
