@@ -1,5 +1,10 @@
 This page is intended as a place to record some of the side projects that I have worked on to help develop my technical skills.
 
+## [race.engineer](https://race.engineer/)
+As the world went digital during the COVID pandemic, the world of motorsport was also forced to go digital. As a motorsport fan, this raised the oppertunitiy to directly compete within the sport I love. SimRacing or eSports leveled the playing field across all and allowed motorsport amatuers to compete with professions from the world of motorsport. 
+
+However, this raised a question. How do amatuers go the tutition and mentorship they need to develop thier skills to be competivie against a more experience cohort. A cohort that has a team of people behind them to optimise their on-track performance, analysing every lap and comparing it agianst others to advise on where gains can be made. [race.engineer](https://race.engineer/) is a response to that problem. The digital world produced much more data than the physical, if we can harness the power of this data, we can automated the role of the Race Engineer. We can understand what techniques can make the driver faster and target prastise to improve in these areas.
+
 ## Kongera Ubumenyi
 
 A WIP project which aims to make the process of identifing learning goals and working on these with your team as simple as possible. The app clearly communicates what skill you expect you team to have in different roles and then work with them to set and review improvement goals. The tech stack was a python flask backend with postgresql for data storage and the infratructure on Docker.
