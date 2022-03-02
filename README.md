@@ -1,0 +1,2 @@
+# [grealish.co.uk](https://grealish.co.uk/) Personal Website
+[![Push to GitHub Pages on push to main](https://github.com/a-grealish/grealish.co.uk/actions/workflows/deploy.yml/badge.svg)](https://github.com/a-grealish/grealish.co.uk/actions/workflows/deploy.yml)
