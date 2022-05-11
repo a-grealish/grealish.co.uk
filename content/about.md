@@ -9,7 +9,7 @@ With Ashley's technical leadership, ev.energy has become a world leading solutio
 
 
 ## [GemFair](https://gemfair.com/)
-At GemFair, Ashley led the development of a platform which ensures small scale diamond miners get paid a fair wage and get to work in safe, ethical conditions. The platform ensures that only the minerals found at certified sites can be registered and tracability is kept throughout the supply chain to increase transparency to consumers.
+At GemFair, Ashley led the development of a platform which ensures small scale diamond miners get paid a fair wage and get to work in safe, ethical conditions. The platform ensures that only the minerals found at certified sites can be registered. And ensures that traceability is maintained throughout the supply chain, all the way to end consumers.
 
 ![Gemfair - Tracability, Empowerment and Fair Value](/img/gemfair.jpg)
 
