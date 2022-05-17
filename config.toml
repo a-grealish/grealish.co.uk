@@ -31,6 +31,9 @@ theme = "hugo-sustain"
   # Telegram      = "username"
   # RSS           = "/blog/index.xml"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 ## Main Menu
 [[menu.main]]
   name = "My Work"
@@ -43,7 +46,12 @@ theme = "hugo-sustain"
   weight = 200
   url = "/projects/"
 [[menu.main]]
-  name = "blog"
+  name = "Aviation Blog"
+  identifier = "aviation"
   weight = 300
+  url = "/aviation/"
+[[menu.main]]
+  name = "blog"
+  weight = 400
   identifier = "blog"
   url = "https://blog.grealish.co.uk"
