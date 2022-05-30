@@ -30,7 +30,7 @@ AvGas varies from the gasoline used in vehicles in a few ways. Firstly, some AvG
 
 The second difference is that Motor Vehicle Gasoline is moving to include an increasing percentage of Ethanol BioFuel, a more sustainable fuel derived from plants rather than fossil fuels. In the UK, many parts of the US and many other countries, the most sold Gasoline ([E10 Fuel](https://en.wikipedia.org/wiki/Common_ethanol_fuel_mixtures#E10_or_less)) is 10% Ethanol, 90% Fossil Fuel.
 
-Two common types of fuel used in light aircraft are:
+Two common types of fuel used in light aircraft are shown here. The main difference is is the Lead addiative, the carbon emissions are approximatly the same.
 
 |  Fuel    |  Lead    | Ethanol Percentage  | kg co2e/litre  |
 |----------|----------|---------------------|----------------|
