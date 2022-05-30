@@ -6,3 +6,9 @@
 .avatar img {
   width: 25%;
 }
+
+
+/* Give tables a bit more space to breath */
+th, td {
+  padding-right: 30px;
+}
