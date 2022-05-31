@@ -46,7 +46,7 @@ theme = "hugo-sustain"
   weight = 200
   url = "/projects/"
 [[menu.main]]
-  name = "Aviation Blog"
+  name = "Aviation"
   identifier = "aviation"
   weight = 300
   url = "/aviation/"

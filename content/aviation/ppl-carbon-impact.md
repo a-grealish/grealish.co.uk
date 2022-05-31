@@ -8,7 +8,7 @@ tags = [
 +++
 
 ## What influences the carbon emissions?
-
+![Cessna 172](/img/cessna-172.jpg)
 
 ### How much you fly?
 The standard UK PPL mandates a minimum 45 hours of flight time. Many students will complete their PPL within this minimum number of hours, but others will take more time. Clearly, the more hours you spend in the air, the more carbon emissions will be generated.
@@ -63,6 +63,8 @@ So, doing a PPL's 45 hours would add 11% to the total yearly emissions for an av
 
 
 ## How to reduce it?
+![Wind Farm](/img/wind-farm.jpg)
+
 Luckily, there are a few simple approaches you can take to reduce the impact of learning to fly.
 
 - Reduce the emissions directly as you fly, look for a school with electric aircraft, use BioFuels, find a school that makes use of simulators for training, or choose a smaller or more effecient aircraft to learn in
