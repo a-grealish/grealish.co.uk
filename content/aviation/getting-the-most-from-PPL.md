@@ -1,17 +1,10 @@
 +++
-
 author = "Ashley Grealish"
-
 title = "Getting the most from your PPL lessons"
-
 date = "2022-05-30"
-
-description = "How you can get the most value from your PPL (Private Pilot Licence) lessons "
-
-tags = [
-
-]
-
+description = "How you can get the most value from your PPL (Private Pilot Licence) lessons"
+thumbnail = "/img/airfield.jpg"
+tags = []
 +++
 
 ## Find the right school
