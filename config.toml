@@ -46,18 +46,23 @@ theme = "hugo-sustain"
   weight = 200
   url = "/projects/"
 [[menu.main]]
+  name = "Blog"
+  identifier = "blog"
+  weight = 300
+  url = "/blog/"
+[[menu.main]]
   name = "Aviation"
   identifier = "aviation"
-  weight = 300
+  weight = 400
   url = "/aviation/"
 [[menu.main]]
   name = "Technical"
-  weight = 400
-  identifier = "blog"
+  weight = 500
+  identifier = "tech-blog"
   url = "https://blog.grealish.co.uk"
 [[menu.main]]
   name = "contact"
-  weight = 500
+  weight = 600
   identifier = "contact"
   url = "/contact/"
 
