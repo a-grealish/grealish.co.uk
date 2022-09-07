@@ -79,3 +79,6 @@ The previously mentioned [Andela](andela.com), and [One Acre Fund](https://oneac
 ## 17. Partnerships for the Goals
 - [1 Million Startups](https://1millionstartups.com/about.php)
 - [Bethnal Green Ventures](https://www.bethnalgreenventures.com/)
+
+
+Got other suggestions for this list? [Let me know]({{< ref "/contact" >}} "Contact")
