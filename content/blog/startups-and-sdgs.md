@@ -10,11 +10,11 @@ tags = []
 
 # Startups and SDGs
 
-![UN Sustainable Developemnt Goals](/img/un-sdgs.jpg)
+![UN Sustainable Development Goals](/img/un-sdgs.jpg)
 
-Here is my rundown of the best companies you can work for as an Enginnering to do good in the world.
+Here is my rundown of the best companies you can work for as an Engineering to do good in the world.
 
-Not all of these are strickley "startups", but let's not let that get in the way of a catching title. Some may be social enterprises, some may be charities, some may have been around for a very long time, but they are all places where you can use your egineering skills to help them push towards a positive mission.
+Not all of these are strickley "startups", but let's not let that get in the way of a catching title. Some may be social enterprises, some may be charities, some may have been around for a very long time. But, they are all places where you can use your engineering skills to have a positive impact in the work.
 
 
 ## 1. No Poverty
