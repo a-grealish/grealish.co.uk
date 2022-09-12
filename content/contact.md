@@ -1,5 +1,6 @@
 +++
-title = "Contract"
+title = 'Contact'
+
 +++
 
 # Contact Me
