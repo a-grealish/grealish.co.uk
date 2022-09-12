@@ -1,13 +1,14 @@
-+++
-author = 'Ashley Grealish'
-category = ['sustainability']
-date = '2022-09-05'
-description = 'A list of interesting organisations working achieving the UN Sustainable Development Goals'
-tags = []
-thumbnail = '/img/un-sdgs.jpg'
-title = 'Startups and SDGs'
-
-+++
+---
+author: Ashley Grealish
+category:
+- sustainability
+date: "2022-09-05"
+description: A list of interesting organisations working achieving the UN Sustainable
+  Development Goals
+tags: []
+thumbnail: /img/un-sdgs.jpg
+title: Startups and SDGs
+---
 
 
 # Startups and SDGs

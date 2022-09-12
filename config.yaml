@@ -1,0 +1,46 @@
+baseURL: 'https://grealish.co.uk/'
+languageCode: en-GB
+title: Ashley Grealish
+theme: hugo-sustain
+permalinks:
+  post: '/:year/:month/:day/:slug'
+params:
+  avatar: /img/headshot.jpg
+  author: Ashley Grealish
+  description: About Ashley Grealish - Enginering Leader using tech for good
+  custom_css:
+    - main.css
+  custom_js: []
+  social:
+    Github: a-grealish
+    LinkedIn: agrealish
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+menu:
+  main:
+    - name: Work
+      identifier: about
+      weight: 100
+      url: /about/
+    - name: Projects
+      identifier: projects
+      weight: 200
+      url: /projects/
+    - name: Blog
+      identifier: blog
+      weight: 300
+      url: /blog/
+    - name: Aviation
+      identifier: aviation
+      weight: 400
+      url: /aviation/
+    - name: Technical
+      weight: 500
+      identifier: tech-blog
+      url: 'https://blog.grealish.co.uk'
+    - name: contact
+      weight: 600
+      identifier: contact
+      url: /contact/

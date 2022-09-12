@@ -1,13 +1,14 @@
-+++
-author = 'Ashley Grealish'
-categories = ['aviation']
-date = '2022-05-15'
-description = 'An analysis of the carbon impact of completing a PPL. And, what can you do to reduce it'
-tags = []
-thumbnail = '/img/wind-farm.jpg'
-title = 'The Carbon Impact of a Private Pilot Licence (PPL)'
-
-+++
+---
+author: Ashley Grealish
+categories:
+- aviation
+date: "2022-05-15"
+description: An analysis of the carbon impact of completing a PPL. And, what can you
+  do to reduce it
+tags: []
+thumbnail: /img/wind-farm.jpg
+title: The Carbon Impact of a Private Pilot Licence (PPL)
+---
 
 ## What influences the carbon emissions?
 ![Cessna 172](/img/cessna-172.jpg)
