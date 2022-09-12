@@ -1,0 +1,19 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+# Hugo Pre-commit taken from https://major.homeonderanged.org/post/hugo-pre-commit/
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0
+    hooks:
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: check-xml
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+        args: [ --fix=no ]
+      - id: pretty-format-json
+        args: [ --indent "   " ]
+      - id: trailing-whitespace
+        args: [ --markdown-linebreak-ext=md ]
