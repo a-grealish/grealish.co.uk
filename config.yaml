@@ -26,25 +26,17 @@ menu:
       url: /about/
     - name: Talks
       identifier: media
-      weight: 150
-      url: /media/
-    - name: Projects
-      identifier: projects
       weight: 200
+      url: /media/
+    - name: Side Projects
+      identifier: projects
+      weight: 300
       url: /projects/
     - name: Blog
       identifier: blog
-      weight: 300
-      url: /blog/
-    - name: Aviation
-      identifier: aviation
       weight: 400
-      url: /aviation/
-    - name: Technical
-      weight: 500
-      identifier: tech-blog
-      url: 'https://blog.grealish.co.uk'
+      url: /blog/
     - name: contact
-      weight: 600
+      weight: 500
       identifier: contact
       url: /contact/

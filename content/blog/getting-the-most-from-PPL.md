@@ -1,5 +1,7 @@
 ---
 author: Ashley Grealish
+categories:
+- aviation
 date: "2022-05-30"
 description: How you can get the most value from your PPL (Private Pilot Licence)
   lessons
