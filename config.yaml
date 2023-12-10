@@ -24,6 +24,10 @@ menu:
       identifier: about
       weight: 100
       url: /about/
+    - name: Talks
+      identifier: media
+      weight: 150
+      url: /media/
     - name: Projects
       identifier: projects
       weight: 200
