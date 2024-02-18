@@ -5,7 +5,7 @@ theme: hugo-sustain
 permalinks:
   post: '/:year/:month/:day/:slug'
 params:
-  avatar: /img/headshot.jpg
+  avatar: /img/headshot-2.jpg
   author: Ashley Grealish
   description: About Ashley Grealish - Enginering Leader using tech for good
   custom_css:
