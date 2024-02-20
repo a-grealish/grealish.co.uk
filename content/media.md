@@ -40,11 +40,13 @@ This case study intends to show how Internet of Things (IoT) technology can be u
 
 _________________
 
-# Developement of a 'pay as you go' solar home system
+# Development of a 'pay as you go' solar home system
 Appropriate Technology - Volume 40, No 3, Page 26 - September 2013
 
-<embed src="/files/Appropriate_Technology_-_Volume_40.pdf" width="500" height="375"
+<embed src="/files/Appropriate_Technology_-_Volume_40.pdf" width="800" height="420"
  type="application/pdf">
+
+ [📝 Download](/files/Appropriate_Technology_-_Volume_40.pdf)
 
 _________________
 
