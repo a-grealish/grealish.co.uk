@@ -15,10 +15,14 @@ title: Startups and SDGs
 
 ![UN Sustainable Development Goals](/img/un-sdgs.jpg)
 
-Here is my rundown of the best companies you can work for as an Engineering to do good in the world.
 
-Not all of these are strickly startups, but let's not let that get in the way of a catching title. Some may be social enterprises, some may be charities, some may have been around for a very long time. But, they are all places where you can use your engineering skills to have a positive impact in the work.
+As an electronics engineer, you have a superpower: the ability to design and create technology that can change the world. Over the course of your career, you'll spend around 80,000 hours working. That's a significant portion of your life, and how you choose to spend that time matters. By aligning your work with the United Nations Sustainable Development Goals (SDGs), you can ensure your 80,000 hours are dedicated to making a positive impact.
 
+The role of an engineer is fundamentally about solving problems and creating change. Whether you're designing more efficient solar panels, developing medical devices that improve healthcare, or creating educational technology that expands access to learning, your work has the potential to make a real difference in people's lives. As you embark on your career journey, you have the power to decide where you want to focus your time and talents.
+
+The UN SDGs provide a valuable framework for identifying areas where your skills as an electronics engineer are most needed. These 17 goals lay out a roadmap for tackling global challenges like poverty, inequality, climate change, and more. By choosing to work on projects and at companies that align with these goals, you can contribute to creating a more sustainable, equitable world.
+
+To help you find mission-aligned opportunities, I've compiled a list of companies whose work advances each of the SDGs. From renewable energy startups to biomedical device manufacturers to organizations expanding internet access, there are many impactful workplaces where you can put your engineering skills to use for good.
 
 ## 1. No Poverty
 - [lendahand](https://www.lendahand.com/en-EU)
@@ -87,3 +91,5 @@ The previously mentioned [Andela](andela.com), and [One Acre Fund](https://oneac
 
 
 Got other suggestions for this list? [Let me know]({{< ref "/contact" >}} "Contact")
+
+As you consider your career path, I encourage you to reflect on how you want to spend your 80,000 hours. By being intentional about aligning your work with your values and seeking out opportunities to create positive change, you can build a fulfilling electronics engineering career that benefits both you and the world. Your 80,000 hours are a precious resource - use them wisely to engineer a brighter future for all.
