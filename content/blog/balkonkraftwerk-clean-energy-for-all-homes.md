@@ -28,13 +28,13 @@ Some users choose to skip either the panels or the battery depending on their ne
 
 ### Why is Balkonkraftwerk gaining popularity in Germany? 
 
-The rapid adoption of Balkonkraftwerk systems in Germany can be attributed to several converging factors. At its core, the German population's strong environmental consciousness has played a crucial role. Germans typically prioritize sustainability and actively seek ways to reduce their carbon footprint, making the concept of personal solar generation particularly appealing.
+The rapid adoption of Balkonkraftwerk systems in Germany can be attributed to several converging factors. At its core, the German population's strong environmental consciousness has played a crucial role. Germans typically prioritise sustainability and actively seek ways to reduce their carbon footprint, making the concept of personal solar generation particularly appealing.
 
 Economic factors have also driven adoption, particularly as energy prices across Europe have risen dramatically in recent years. This has prompted many residents to explore cost-effective alternatives for their energy needs. The timing of this price surge has coincided perfectly with significant technological advances, particularly in microinverter technology. Modern microinverters can now effectively handle smaller solar arrays, making 800W systems with typical 2x200W panel setups both practical and efficient for balcony installations.
 
 The financial barrier to entry has also decreased substantially. Battery and photovoltaic panel prices continue to fall, with complete systems – including panels, battery, and microinverter – now available for [less than 1000 EUR](https://yuma.de/products/anker-solix-solarbank-2-pro-mit-2x-440w-gratismodulen-ja-solar). This price point makes the technology accessible to a broader range of consumers, especially given the relatively quick return on investment.
 
-Perhaps most significantly, German authorities have created a supportive regulatory environment that encourages adoption. Since May, regulations have been updated to permit feeding up to 800W into the grid through a standard power socket, simplifying installation dramatically. The government has further incentivized adoption by making these systems VAT-exempt, while various municipalities offer grants ranging [from 50 to 500 EUR](https://www.adac.de/rund-ums-haus/energie/versorgung/balkonkraftwerk/). This combination of regulatory support and financial incentives has created a perfect environment for the technology to flourish.
+Perhaps most significantly, German authorities have created a supportive regulatory environment that encourages adoption. Since May, regulations have been updated to permit feeding up to 800W into the grid through a standard power socket, simplifying installation dramatically. The government has further incentivised adoption by making these systems VAT-exempt, while various municipalities offer grants ranging [from 50 to 500 EUR](https://www.adac.de/rund-ums-haus/energie/versorgung/balkonkraftwerk/). This combination of regulatory support and financial incentives has created a perfect environment for the technology to flourish.
 
 
 ### Replicating the Success Elsewhere
@@ -43,13 +43,13 @@ To replicate this success in other markets, we must embrace the core driving for
 
 Technical and regulatory challenges vary by country. For instance, the Netherlands currently prohibits feeding power into a socket. While this doesn't completely prevent adoption, Germany's simple installation process has significantly accelerated growth. Other markets need to adopt regulations that allow small-scale self-generation without complex installation requirements. The good news is that this is changing in May 2025.
 
-In the UK, flat ownership often involves long-term leaseholds, where balconies might not be included in the lease, making PV panel installation permission challenging. However, the UK's substantial on-grid renewable wind generation and dynamic tariffs mean similar benefits can be achieved using just a battery and smart algorithms to optimize charging based on grid renewable percentages.
+In the UK, flat ownership often involves long-term leaseholds, where balconies might not be included in the lease, making PV panel installation permission challenging. However, the UK's substantial on-grid renewable wind generation and dynamic tariffs mean similar benefits can be achieved using just a battery and smart algorithms to optimise charging based on grid renewable percentages.
 
 The market needs products that appeal beyond early DIYers, offering simple installation and clear communication of clean energy potential and cost savings. Current products often require extensive research and adjustment to work effectively, reminiscent of early EV adoption.
 
 ### Key Takeaways
 
-Germany's success stems from flat dwellers' strong desire to participate in the clean energy revolution, combined with falling PV and battery prices that enable system payback within a few years. DIY innovators have proven the concept, and regulators have created a supportive environment prioritizing both simplicity and safety.
+Germany's success stems from flat dwellers' strong desire to participate in the clean energy revolution, combined with falling PV and battery prices that enable system payback within a few years. DIY innovators have proven the concept, and regulators have created a supportive environment prioritising both simplicity and safety.
 
 However, these products still primarily target DIYers and early adopters. While other markets will likely follow Germany's lead, widespread adoption requires developing more user-friendly products tailored to local market requirements. This evolution will be crucial for expanding the impact of balcony power generation systems and contributing to a more sustainable energy future.
 
