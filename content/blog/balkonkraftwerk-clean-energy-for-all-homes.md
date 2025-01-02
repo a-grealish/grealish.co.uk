@@ -53,4 +53,7 @@ Germany's success stems from flat dwellers' strong desire to participate in the 
 
 However, these products still primarily target DIYers and early adopters. While other markets will likely follow Germany's lead, widespread adoption requires developing more user-friendly products tailored to local market requirements. This evolution will be crucial for expanding the impact of balcony power generation systems and contributing to a more sustainable energy future.
 
+### Further Reading
+- [The Guardian: ‘If 1.5m Germans have them there must be something in it’: how balcony solar is taking off](https://www.theguardian.com/environment/2024/dec/18/if-a-million-germans-have-them-there-must-be-something-in-it-how-balcony-solar-is-taking-off)
+
 *Cover Photo Credit: Marco Verch/CC-BY 2.0.*
