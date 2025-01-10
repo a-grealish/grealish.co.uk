@@ -4,6 +4,8 @@ title: Homepage
 
 # Ashley Grealish
 
-Engineering leader with expertise in using technology to drive forward societal and environmental missions. Currently taking a career break, and planning the next thing.
+Hi, I'm Ashley, co-founder and CEO of [Windfall Energy](https://www.windfallenergy.com). While the clean energy transition is accelerating, I noticed that most solutions exclude the millions living in flats and rented homes. That's why I'm building Windfall - to create affordable, installation-free home batteries that work for everyone.
 
-Previously building the world's leading electric vehicle charging platform @[ev.energy](https://ev.energy). Innovating ethical approaches to diamond mining @[GemFair](https://gemfair.com). Bringing access to renewable energies to people across sub-Saharan Africa @[bboxx](https://bboxx.com) and @[e.quinox](http://e.quinox.org/). And, studying @[imperialcollege](https://www.imperial.ac.uk/)
+My journey in clean energy began while studying Engineering at @[imperialcollege](https://www.imperial.ac.uk/), where I worked with @[e.quinox](http://e.quinox.org/) to bring renewable energy to rural communities in East Africa.
+
+This led me to scale solar solutions across sub-Saharan Africa @[bboxx](https://bboxx.com), develop ethical diamond mining technology @[GemFair](https://gemfair.com), and most recently, build the world's leading EV smart charging platform as CTO @[ev.energy](https://ev.energy).
