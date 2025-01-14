@@ -3,44 +3,48 @@ author: Ashley Grealish
 category:
 - sustainability
 date: "2025-01-10"
-description: "Using small, portable batteries to save money on your home enrgy bill"
+description: "Using small, portable batteries to save money on your home energy bill"
 tags: []
-thumbnail: /img/todo
+thumbnail: /img/ecoflow/delta2-with-powerstream.jpg
 title: "TODO"
 ---
 
-Lot’s of people have been buying portable battery systems, like those from EcoFlow or their competitors. These are really useful for taking power with you when your camping, or doing work away from the grid. But, they also often sit unused in the house for long periods. 
 
-What if they could be used to save money on your energy bills or reduce your carbon emissions whilst unused at home?
+In recent years, portable battery systems like those from EcoFlow have surged in popularity, primarily for their convenience in outdoor activities and off-grid scenarios. However, these powerful energy storage devices have untapped potential right in our homes. What if we could harness these batteries not just for emergencies or adventures, but as a smart solution to reduce our daily energy costs and carbon footprint?
 
-The idea is simple, store energy in the battery when renewables are plentiful, and energy is cheap. And, use that stored energy to power your home, when you need them.
+The concept is straightforward: store energy when it's abundant and cheap, then use it when demand (and prices) peak. This approach not only promises significant savings on your energy bills but also contributes to a more sustainable energy consumption pattern.
 
-In this article, I will propose a number of ways you can achieve this. From using the battery to power a single device, to powering your whole home.
+In this article, we'll explore practical ways to integrate portable batteries into your home energy system. From powering individual devices to supporting your entire household, we'll cover strategies that can work with batteries of various capacities, with a focus on the versatile EcoFlow Delta series.
 
-This technique can work with any portable batteries. But it most impactful when above 1 kWh or above. The EcoFlow Delta series is great, it ranges from 1-6 kWh (or even up to 25 kWh for the Pro model). Let’s use that as a starting example
+Whether you're a tech enthusiast, an eco-conscious homeowner, or simply looking to cut down on utility costs, join us as we unlock the hidden potential of your portable battery and transform it into a key player in your home's energy ecosystem.
 
-## Powering a single device
+## Powering a single device or area
 
-The EcoFlow product range has AC outputs built in, which can cover almost any home appliance that you plug in to it. You can also plug in multiple AC devices. For example, if you have a desk with a monitor, laptop charger and a lamp, you can power all of these from one EcoFlow. This will typically be <1kWh of energy, can be easily powered all day from 1 charge.
+The EcoFlow Delta series comes with built-in AC outputs, making it versatile for powering various home appliances. For instance, you could power an entire home office setup - a laptop (45-100W), a monitor (20-100W), and a desk lamp (5-20W) - easily for a full day on a single charge of a 1kWh battery.
 
-The downside of this approach is maximising your use of the battery. For optimal savings, you want to use most of the capacity of the battery each day. You need to experiment, or do some maths, to work out which device makes the best use of the battery you have.
+To maximize savings, aim to use most of the battery's capacity each day. Here's a quick guide to estimate usage:
 
-To make this work, you’ll need:
+1. Identify the power rating (in watts) of your devices.
+2. Multiply the watts by the hours of use to get watt-hours.
+3. Ensure the total watt-hours are slightly less than your battery's capacity.
+
+For example, a 500W device used for 2 hours would consume 1kWh (1000Wh), perfectly matching a Delta 2's capacity. This doesn't account for the efficiency of the system, so you may want to plan to only use 80% of the available capacity.
+
+To implement this setup, you'll need:
 - An EcoFlow Battery
-- A smart-plug to schedule charging
+- A smart plug to schedule charging
+- Your chosen device(s) to power
 
-```mermaid
-graph LR
-  SP[Smart Plug]-->|Charging Input|EFD[EcoFlow Delta]
-  EFD-->|AC Output|Device
-```
+![A system diagram of a EcoFlow Delta 2](/img/ecoflow/system-delta.png)
 
 ![Using an EcoFlow Delta 2 to power my desk](/img/ecoflow/delta2-under-desk.jpg)
 
 
 ## Powering your full home
 
-To power more than one device in your home, you can add a micro-inverter to your battery. EcoFlow's micro-inverter is called PowerFlow. With this, the battery can feed power to all your appliances via your home's existing wiring. This can be used to send power to your lights, TV, and partly power your Electric Hob and Oven. The maximum output of the PowerStream is 800W, but any power required by your home above this will be pulled from the grid, as before.
+To extend the benefits beyond a single device, you can integrate your EcoFlow battery into your home's electrical system using a micro-inverter. EcoFlow's PowerStream is designed for this purpose, allowing your battery to supplement your home's power supply.
+
+The PowerStream can feed up to 800W of power to your home appliances via your existing wiring. This means it can fully power most lights, TVs, computers, and partially contribute to higher-draw appliances like electric hobs and ovens. When your home's power demand exceeds 800W, the additional power is automatically drawn from the grid, ensuring seamless operation.
 
 You’ll need:
 - An EcoFlow Battery
@@ -49,14 +53,7 @@ You’ll need:
 - 2 x Smart Plugs to schedule charge and discharge times
 - A Shelly 3EM to measure your consumption (or EcoFlow Smart Plugs)
 
-```mermaid
-graph LR
-  SP[Smart Plug]-->|Charging Input|EFD[EcoFlow Delta]
-  EFD --> PowerStream
-  3EM[Shelly 3EM]-.->PowerStream
-  PowerStream-->|AC Output|SmartPlug
-  
-```
+![A system diagram of a EcoFlow Delta 2 with Powerstream](/img/ecoflow/system-delta-with-powerstream.png)
 
 ![EcoFlow Delta 2 with a Powerstream micro-inverter, with two smartplugs](/img/ecoflow/delta2-with-powerstream.jpg)
 
@@ -301,10 +298,17 @@ Calculate the potential savings for yourself. The biggest factor in your potenti
 
 <br>
 
-## Which smart plugs should I use?
+## Optimizing with Smart Plugs
 
-All of these use-cases require a smart plug to schedule the charging, and discharging of the battery. This can be set on simple timers. If you know you are on an energy tariff which costs less overnight, you can program this into the timers.
+Smart plugs are crucial for automating your battery's charge and discharge cycles. While basic timer-based scheduling can be effective, integrating with real-time energy data can significantly enhance both cost savings and environmental benefits.
 
-But, if you want to maximise your carbon and costs savings, you’ll want to integrate more deeply with the grid and your energy supplier. [Windfall Energy](https://www.windfallenergy.com) plugs enable this. They will charge you battery when energy is greenest and cheapest, and divert the power back to your home at peak times.
+[Windfall Energy](https://www.windfallenergy.com) plugs offer an advanced solution for optimizing home battery systems like EcoFlow. These plugs provide:
 
+1. Real-time integration with grid data and energy prices
+2. Dynamic charging based on energy availability and cost
+3. Intelligent discharging during peak demand times
+4. Compatibility with various battery systems, including EcoFlow
 
+By leveraging real-time data, Windfall Energy plugs can help ensure your battery is charged when energy is greenest and cheapest, and used when it's most beneficial. This approach not only aims to maximize your energy savings but also contributes to overall grid stability and reduced carbon emissions.
+
+For those looking to get the most out of their EcoFlow system, exploring smart plug options that offer advanced energy management features can be a worthwhile consideration. To learn more about how smart plugs can enhance your home energy strategy, you can visit [www.windfallenergy.com](https://www.windfallenergy.com).
