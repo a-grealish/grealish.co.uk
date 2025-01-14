@@ -4,9 +4,9 @@ category:
 - sustainability
 date: "2025-01-10"
 description: "Using small, portable batteries to save money on your home energy bill"
-tags: []
+tags: ["energy", "batteries"]
 thumbnail: /img/ecoflow/delta2-with-powerstream.jpg
-title: "TODO"
+title: "Home Batteries: Unlocking Hidden Savings"
 ---
 
 
