@@ -58,7 +58,7 @@ You’ll need:
 ![EcoFlow Delta 2 with a Powerstream micro-inverter, with two smartplugs](/img/ecoflow/delta2-with-powerstream.jpg)
 
 ## How much could I save?
-Calculate the potential savings for yourself. The biggest factor in your potential savings is the energy tariff or rate plan. 
+Calculate the potential savings for yourself. The biggest factor in your potential savings is the energy tariff or rate plan. I'm in the UK, and am using the Octopus Agile tariff. But, any tariff with seperate peak and off-peak pricing (time-of-use pricing) could work. Economoy 7 is a popular one, or there are a range of others targetting at EV owners. 
 
 <style>
     .calculator {
