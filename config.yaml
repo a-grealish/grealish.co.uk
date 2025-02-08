@@ -28,10 +28,6 @@ menu:
       identifier: media
       weight: 200
       url: /media/
-    - name: Side Projects
-      identifier: projects
-      weight: 300
-      url: /projects/
     - name: Blog
       identifier: blog
       weight: 400
