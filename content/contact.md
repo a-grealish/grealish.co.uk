@@ -1,9 +1,7 @@
 ---
 title: Contact
+layout: 'simple-page'
 ---
-
-# Contact Me
-
 
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xknyylwd" method="post">
   <fieldset id="fs-frm-inputs">

@@ -1,3 +1,8 @@
+/* Give some space below the main page headings */
+h1 {
+  margin-bottom: 2rem;
+}
+
 /* Make the profile picture much smaller with less space above */
 .avatar {
   padding-top: 2vh;

@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <!-- Header -->
+  {{ partial "header" . }}
+
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+
+    <div class="panel">
+      <div class="panel-body">
+        <div class="blogpost">
+          {{ .Content }}
+          {{ $related := .Site.RegularPages.Related . | first 3 }}
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
