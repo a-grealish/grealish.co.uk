@@ -23,7 +23,8 @@ jobs:
       - name: Deploy the site
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
-          HUGO_VERSION: 0.154.4
+          # Leave undefined to pull the latest version
+          # HUGO_VERSION: 0.154.5
           TARGET_REPO: a-grealish/a-grealish.github.io
           TARGET_BRANCH: main
           # Custom args not needed
