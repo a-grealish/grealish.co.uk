@@ -3,6 +3,13 @@ title: Talks & Papers
 layout: 'simple-page'
 ---
 
+### Tech for Good Podcast - Windfall Energy
+Bethanl Green Ventures
+
+<iframe width="800" height="420" src="https://www.youtube.com/embed/DLLdyrCk-oU?si=ck6GN43Z6nLMiuUl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+_________________
+
 ### High-Quality Hardware Integrations
 Enginears Podcast
 
