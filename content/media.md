@@ -3,6 +3,12 @@ title: Talks & Papers
 layout: 'simple-page'
 ---
 
+### Your Flat Called. It Wants a Battery.
+Energ'Ethic Podcast by Marine Cornelis
+<iframe width="800" height="420" src="https://www.youtube.com/embed/TbnvyMgRn2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+_________________
+
 ### Tech for Good Podcast - Windfall Energy
 Bethanl Green Ventures
 
