@@ -1,12 +1,84 @@
+/* Colour system
+   ==========================================================================
+   Decorative accent (#dfab01) is for bars, badges and highlights only —
+   link text always uses the darker/lighter accessible sibling of the hue.
+   Dark mode follows prefers-color-scheme automatically. */
+
+:root {
+  /* Palette */
+  --paper: #faf8f3;          /* page background */
+  --surface: #ffffff;        /* cards, form focus */
+  --surface-2: #efece3;      /* secondary surfaces */
+  --ink: #2b2b26;            /* body text */
+  --ink-strong: #1c1a15;     /* headings, icons */
+  --muted: #75705f;          /* meta, dates, descriptions */
+  --accent: #dfab01;         /* bars, badges, selection */
+  --accent-badge-hover: #c99f01;
+  --link: #8a6d00;           /* accessible link text (4.6:1) */
+  --link-hover: #6b5400;
+  --nav: #6e6a5e;
+  --rule: rgba(28, 26, 21, .1);
+  --form-border: rgba(28, 26, 21, .25);
+  --field-bg: rgba(255, 255, 255, .9);
+  --field-bg-focus: #ffffff;
+  --photo-brightness: 1;
+
+  /* Map Bootstrap 5.3 onto the palette */
+  --bs-body-bg: var(--paper);
+  --bs-body-color: var(--ink);
+  --bs-secondary-color: var(--muted);
+  --bs-secondary-bg: var(--surface-2);
+  --bs-tertiary-bg: var(--surface-2);
+  --bs-emphasis-color: var(--ink-strong);
+  --bs-heading-color: var(--ink-strong);
+  --bs-border-color: var(--rule);
+  --bs-border-color-translucent: var(--rule);
+  --bs-link-color: var(--link);
+  --bs-link-hover-color: var(--link-hover);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #1b1915;
+    --surface: #26231e;
+    --surface-2: #2e2a24;
+    --ink: #e9e4d6;
+    --ink-strong: #f5f1e6;
+    --muted: #a8a191;
+    --link: #dfab01;         /* on dark, the accent itself is the accessible link colour */
+    --link-hover: #f2c94c;
+    --nav: #b5ae9d;
+    --rule: rgba(245, 241, 230, .12);
+    --form-border: rgba(245, 241, 230, .25);
+    --field-bg: #2e2a24;
+    --field-bg-focus: #332e27;
+    --photo-brightness: .92;
+  }
+}
+
+::selection {
+  background-color: rgba(223, 171, 1, .35);
+}
+
 /* Base
    ========================================================================== */
 
 html,
 body {
   height: 100%;
-  background-color: #fff;
+  background-color: var(--paper);
+  color: var(--ink);
   font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
-  border-top: 3px solid #27a822;
+  border-top: 3px solid var(--accent);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--ink-strong);
 }
 
 /* Wrapper for page content to push down footer */
@@ -51,8 +123,23 @@ body {
   margin-bottom: 0;
 }
 
+/* Cards render on the page background, not on paper */
+.card {
+  --bs-card-bg: var(--surface);
+}
+
 /* Navbar
    ========================================================================== */
+
+/* Map Bootstrap's navbar component variables onto the palette: without
+   this, .nav-link.active falls back to near-black (--bs-navbar-active-color
+   defaults to emphasis black in both schemes) and disappears on dark. */
+.navbar {
+  --bs-navbar-color: var(--nav);
+  --bs-navbar-hover-color: var(--ink);
+  --bs-navbar-active-color: var(--ink-strong);
+  --bs-navbar-disabled-color: var(--muted);
+}
 
 .navbar .navbar-brand,
 .navbar .navbar-brand:hover,
@@ -64,7 +151,7 @@ body {
 .navbar .navbar-nav > li > a:focus,
 .navbar .navbar-text,
 .navbar-toggler {
-  color: #6b6b6b;
+  color: var(--nav);
 }
 
 .navbar-nav > .active > a,
@@ -73,8 +160,8 @@ body {
 .navbar-nav > .open > a,
 .navbar-nav > .open > a:hover,
 .navbar-nav > .open > a:focus {
-  color: #6b6b6b;
-  background-color: #fff;
+  color: var(--nav);
+  background-color: var(--paper);
 }
 
 .navbar-toggler:focus {
@@ -83,24 +170,24 @@ body {
 
 .navbar-collapse,
 .navbar-form {
-  border-color: #6b6b6b;
+  border-color: var(--nav);
 }
 
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu > li > a {
-    color: #6b6b6b;
+    color: var(--nav);
   }
 
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #6b6b6b;
+    color: var(--nav);
   }
 
   .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #6b6b6b;
-    background-color: #fff;
+    color: var(--nav);
+    background-color: var(--paper);
   }
 }
 
@@ -113,12 +200,12 @@ body {
 }
 
 .container a {
-  color: #1e7d1a;
+  color: var(--link);
   text-decoration: none;
 }
 
 .container a:hover {
-  color: #146210;
+  color: var(--link-hover);
 }
 
 .container p img,
@@ -223,26 +310,26 @@ h6 {
   font-size: 0.9rem;
 }
 
-/* Tag badges: explicit white-on-dark-green so the generic link colour
-   (which outspecifies .badge) can never turn the text green-on-green */
+/* Tag badges: accent background with dark text, immune to the generic
+   link colour (which outspecifies .badge) */
 .post-meta .badge {
   font-size: .8rem;
 }
 
 .post-meta .badge-tag {
-  color: #fff;
-  background-color: #146210;
+  color: #1a1a1a;
+  background-color: var(--accent);
 }
 
 .post-meta .badge-tag:hover,
 .post-meta .badge-tag:focus {
-  color: #fff;
-  background-color: #0f4d0b;
+  color: #1a1a1a;
+  background-color: var(--accent-badge-hover);
 }
 
 .related-posts {
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
 }
 
 .related-posts .related-title {
@@ -285,14 +372,14 @@ h6 {
 
 .social-links li a {
   font-size: 20px;
-  color: #000;
+  color: var(--ink);
   padding: 10px;
   padding-bottom: 4px;
   transition: all .4s ease;
 }
 
 .social-links li a:hover {
-  color: #000;
+  color: var(--ink);
 }
 
 /* Avatar
@@ -331,6 +418,7 @@ td {
   width: 100%;
   height: 200px;
   object-fit: cover;
+  filter: brightness(var(--photo-brightness));
 }
 
 /* Add margin between cards on mobile */
@@ -376,8 +464,8 @@ td {
 #fs-frm select,
 #fs-frm textarea,
 #fs-frm #card-element {
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--form-border);
+  background-color: var(--field-bg);
   padding: .75em 1rem;
   margin-bottom: 1.5rem;
 }
@@ -385,10 +473,10 @@ td {
 #fs-frm input:focus,
 #fs-frm select:focus,
 #fs-frm textarea:focus {
-  background-color: white;
+  background-color: var(--field-bg-focus);
   outline-style: solid;
   outline-width: thin;
-  outline-color: gray;
+  outline-color: var(--muted);
   outline-offset: -1px;
 }
 
@@ -455,7 +543,7 @@ td {
    ========================================================================== */
 
 .footer {
-  border-bottom: 5px solid #27a822;
+  border-bottom: 5px solid var(--accent);
   padding: 20px 0;
   text-decoration: none !important;
 }

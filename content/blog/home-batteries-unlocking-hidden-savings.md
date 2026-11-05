@@ -67,6 +67,10 @@ Calculate the potential savings for yourself. The biggest factor in your potenti
         padding: 20px;
         border: 2px solid black;
         box-sizing: border-box;
+        /* Forced light: the calculator keeps its own fixed colours so it
+           stays readable in dark mode without per-element overrides */
+        background-color: #ffffff;
+        color: #212529;
     }
     .row {
         display: flex;
@@ -109,6 +113,7 @@ Calculate the potential savings for yourself. The biggest factor in your potenti
         font-family: inherit;
         font-size: 16px;
         background-color: #ffffff;
+        color: #212529;
         box-sizing: border-box;
     }
     input[type="checkbox"] {
@@ -119,6 +124,7 @@ Calculate the potential savings for yourself. The biggest factor in your potenti
     input:focus, select:focus {
         outline: none;
         background-color: #f2ca00;
+        color: #212529;
     }
     #manual-capacity {
         display: none;
