@@ -1,0 +1,42 @@
+{{ define "main" }}
+  {{ partial "header.html" . }}
+
+  <div class="container">
+    <article class="panel">
+      {{ if not .Date.IsZero }}
+        <h1 class="h3 mt-3 mb-0"><b>{{ .Title }}</b></h1>
+        <div class="blog-title my-4">
+          {{ partial "post-meta.html" . }}
+        </div>
+      {{ else }}
+        <h1 class="h3 mt-3 mb-0"><b>{{ .Title }}</b></h1>
+      {{ end }}
+      <div class="panel-body">
+        <div class="blogpost">
+          {{ .Content }}
+
+          {{ $related := site.RegularPages.Related . | first 3 }}
+          {{ with $related }}
+            <div class="related-posts mt-4 py-3">
+              <h5 class="text-center">Related Posts</h5>
+              {{ range . }}
+                <div class="row">
+                  <div class="col-4">
+                    <p class="h6 text-end my-1">
+                      {{ if not .Date.IsZero }}{{ partial "post-date.html" . }}{{ end }}
+                    </p>
+                  </div>
+                  <div class="col-8">
+                    <p class="h6 text-start my-1">
+                      <b><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></b>
+                    </p>
+                  </div>
+                </div>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </article>
+  </div>
+{{ end }}

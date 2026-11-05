@@ -1,24 +1,26 @@
 {{ define "main" }}
-  <!-- Header -->
-  {{ partial "header" . }}
+  {{ partial "header.html" . }}
+
   <div class="container">
     <div class="row">
-      <h1>{{ singularize .Title }}</h1>
+      <h1>{{ .Title }}</h1>
     </div>
     <div class="row row-cols-1 row-cols-md-3 g-4">
-      {{ range .Data.Pages }}
+      {{ range .Pages }}
         <div class="col">
           <div class="card h-100">
-            {{ if .Params.thumbnail }}
-              <a href="{{ .RelPermalink }}">
-                <img src="{{ .Params.thumbnail | relURL }}" class="card-img-top" alt="{{ .Title }}">
-              </a>
+            {{ with .Params.images }}
+              {{ with index . 0 }}
+                <a href="{{ $.RelPermalink }}">
+                  <img src="{{ . | relURL }}" class="card-img-top" alt="{{ $.Title }}">
+                </a>
+              {{ end }}
             {{ end }}
             <div class="card-body d-flex flex-column">
-              <a href="{{ .RelPermalink }}">
+              <a href="{{ .RelPermalink }}" class="text-decoration-none">
                 <h5 class="card-title">{{ .Title | markdownify }}</h5>
               </a>
-              <h6 class="card-subtitle mb-2 text-muted">{{ .Date.Format "January 2, 2006" }} - {{ .ReadingTime }} min read</h6>
+              {{ partial "post-meta.html" . }}
               <p class="card-text flex-grow-1">{{ .Description }}</p>
             </div>
           </div>

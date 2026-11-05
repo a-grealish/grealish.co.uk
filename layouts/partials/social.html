@@ -1,0 +1,35 @@
+<div class="social">
+  <ul class="social-links">
+    {{ with site.Params.social.github }}
+      <li><a href="https://github.com/{{ . }}" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+    {{ end }}
+
+    {{ with site.Params.social.email }}
+      <li><a href="mailto:{{ . }}" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a></li>
+    {{ end }}
+
+    {{ with site.Params.social.twitter }}
+      <li><a href="https://twitter.com/{{ . }}" aria-label="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
+    {{ end }}
+
+    {{ with site.Params.social.linkedin }}
+      <li><a href="https://linkedin.com/in/{{ . }}" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+    {{ end }}
+
+    {{ with site.Params.social.stackoverflow }}
+      <li><a href="https://stackoverflow.com/{{ . }}" aria-label="Stack Overflow"><i class="fa-brands fa-stack-overflow" aria-hidden="true"></i></a></li>
+    {{ end }}
+
+    {{ with site.Params.social.medium }}
+      <li><a href="https://medium.com/@{{ . }}" aria-label="Medium"><i class="fa-brands fa-medium" aria-hidden="true"></i></a></li>
+    {{ end }}
+
+    {{ with site.Params.social.telegram }}
+      <li><a href="https://telegram.me/{{ . }}" aria-label="Telegram"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a></li>
+    {{ end }}
+
+    {{ with site.Params.social.rss }}
+      <li><a href="{{ . }}" aria-label="RSS feed"><i class="fa-solid fa-rss" aria-hidden="true"></i></a></li>
+    {{ end }}
+  </ul>
+</div>

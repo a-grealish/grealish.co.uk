@@ -1,15 +1,16 @@
 ---
 author: Ashley Grealish
-category:
+categories:
 - sustainability
 date: "2024-12-01"
 description: "Discover how balcony-based power generation is transforming the way households generate and consume energy."
 tags: []
-thumbnail: /img/balkonkraftwerk.jpg
+images:
+- /img/balkonkraftwerk.jpg
 title: "Balkonkraftwerk: Clean Energy for All Homes"
 ---
 
-Balkonkraftwerk, a German term meaning "balcony-based power generation," has gained significant popularity in recent years. This system allows individuals to harness solar energy on their balconies and feed it back into the grid, reducing their reliance on traditional energy sources. 
+Balkonkraftwerk, a German term meaning "balcony-based power generation," has gained significant popularity in recent years. This system allows individuals to harness solar energy on their balconies and feed it back into the grid, reducing their reliance on traditional energy sources.
 
 I recently visited Düsseldorf to understand this Balkonkraftwerk movement better. By studying its success, we can identify key factors that contributed to its growth and explore how these lessons can be applied to other countries, including the UK.
 
@@ -26,7 +27,7 @@ Some users choose to skip either the panels or the battery depending on their ne
 ![An example Balcony PV Install](/img/balkonkraftwerk.jpg)
 
 
-### Why is Balkonkraftwerk gaining popularity in Germany? 
+### Why is Balkonkraftwerk gaining popularity in Germany?
 
 The rapid adoption of Balkonkraftwerk systems in Germany can be attributed to several converging factors. At its core, the German population's strong environmental consciousness has played a crucial role. Germans typically prioritise sustainability and actively seek ways to reduce their carbon footprint, making the concept of personal solar generation particularly appealing.
 

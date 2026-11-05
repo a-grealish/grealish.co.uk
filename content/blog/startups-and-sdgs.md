@@ -1,12 +1,13 @@
 ---
 author: Ashley Grealish
-category:
+categories:
 - sustainability
 date: "2022-09-05"
-description: A list of interesting organisations working achieving the UN Sustainable
+description: A list of interesting organisations working towards achieving the UN Sustainable
   Development Goals
 tags: []
-thumbnail: /img/un-sdgs.jpg
+images:
+- /img/un-sdgs.jpg
 title: Startups and SDGs
 ---
 

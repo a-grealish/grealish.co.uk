@@ -1,0 +1,24 @@
+<header>
+  <div class="container mb-3">
+    <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="{{ site.Home.RelPermalink }}" aria-label="Home">
+          <i class="fa-solid fa-house" aria-hidden="true"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            {{ range site.Menus.main }}
+              <li class="nav-item">
+                <a class="nav-link{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} active{{ end }}" href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name | upper }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>

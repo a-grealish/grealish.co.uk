@@ -1,8 +1,9 @@
 # Hugo build and temp files
 .hugo*
 /public/*
+/resources/_gen/
 
-# OS Specific
-.DS_STORE
+# OS specific
+.DS_Store
 
 .idea/*

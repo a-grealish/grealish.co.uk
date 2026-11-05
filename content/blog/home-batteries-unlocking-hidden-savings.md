@@ -1,11 +1,12 @@
 ---
 author: Ashley Grealish
-category:
+categories:
 - sustainability
 date: "2025-01-10"
 description: "Using small, portable batteries to save money on your home energy bill"
 tags: ["energy", "batteries"]
-thumbnail: /img/ecoflow/delta2-with-powerstream.jpg
+images:
+- /img/ecoflow/delta2-with-powerstream.jpg
 title: "Home Batteries: Unlocking Hidden Savings"
 ---
 
@@ -58,7 +59,7 @@ You’ll need:
 ![EcoFlow Delta 2 with a Powerstream micro-inverter, with two smartplugs](/img/ecoflow/delta2-with-powerstream.jpg)
 
 ## How much could I save?
-Calculate the potential savings for yourself. The biggest factor in your potential savings is the energy tariff or rate plan. I'm in the UK, and am using the Octopus Agile tariff. But, any tariff with seperate peak and off-peak pricing (time-of-use pricing) could work. Economoy 7 is a popular one, or there are a range of others targetting at EV owners. 
+Calculate the potential savings for yourself. The biggest factor in your potential savings is the energy tariff or rate plan. I'm in the UK, and am using the Octopus Agile tariff. But, any tariff with seperate peak and off-peak pricing (time-of-use pricing) could work. Economoy 7 is a popular one, or there are a range of others targetting at EV owners.
 
 <style>
     .calculator {
@@ -234,7 +235,7 @@ Calculate the potential savings for yourself. The biggest factor in your potenti
 
         // If current selection is not compatible with PowerStream, select first compatible option
         if (powerStreamInstalled && !ecoflowConfigs[select.value]?.powerStreamCompatible) {
-            select.value = Object.keys(ecoflowConfigs).find(key => 
+            select.value = Object.keys(ecoflowConfigs).find(key =>
                 ecoflowConfigs[key].powerStreamCompatible
             );
         }

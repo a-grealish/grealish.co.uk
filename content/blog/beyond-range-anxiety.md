@@ -1,15 +1,16 @@
 ---
 author: Ashley Grealish
-category:
+categories:
 - sustainability
 date: "2024-09-29"
-description: "An eye-opening account of how far EV technology and infrastructure have come, told through a ambitious cross-continental road trip."
+description: "An eye-opening account of how far EV technology and infrastructure have come, told through an ambitious cross-continental road trip."
 tags: []
-thumbnail: /img/eu-roadtrip/thumbnail.jpg
+images:
+- /img/eu-roadtrip/thumbnail.jpg
 title: "Beyond Range Anxiety: Conquering Europe in an EV"
 ---
 
-I've always had a particular fondness for a good road trip. From motoring up the Pacific Coast Highway in a American muscle car to meandering through the misty Scottish Highlands, there's an undeniable allure to exploring the world on four wheels. In recent years, my adventures have taken a decidedly electric turn. I've traversed the verdant hills of Ireland and ventured across various European countries, all without so much as a drop of petrol.
+I've always had a particular fondness for a good road trip. From motoring up the Pacific Coast Highway in an American muscle car to meandering through the misty Scottish Highlands, there's an undeniable allure to exploring the world on four wheels. In recent years, my adventures have taken a decidedly electric turn. I've traversed the verdant hills of Ireland and ventured across various European countries, all without so much as a drop of petrol.
 
 As an enthusiast of long-distance motoring, it's been rather fascinating to witness the rapid evolution of EV infrastructure. What once required meticulous planning and occasional bouts of range anxiety has transformed into an increasingly seamless experience. Each subsequent journey has proven more straightforward than the last, with charging stations materialising in the most unexpected locales.
 
@@ -53,11 +54,11 @@ The even better experience was when we arrived at hotels, spotted a free EV char
 
 ## Cost and Energy Usage
 
-The total energy usage was a staggering 1.9 MWh of electricity. For context, that's approximately equal to 8 months of my typical home energy usage - so, a lot of electricity. 
+The total energy usage was a staggering 1.9 MWh of electricity. For context, that's approximately equal to 8 months of my typical home energy usage - so, a lot of electricity.
 
-But, let's compare that to other methods of travel. 85% of that charging was done using Tesla Superchargers, which Tesla say use 100% renewable energy. But, let's be skeptical and use an average grid emissions of `0.3kg of CO2e per kWh`<sup>[1]</sup> for all of the energy used. 
+But, let's compare that to other methods of travel. 85% of that charging was done using Tesla Superchargers, which Tesla say use 100% renewable energy. But, let's be skeptical and use an average grid emissions of `0.3kg of CO2e per kWh`<sup>[1]</sup> for all of the energy used.
 
-`1900kWh * 0.3 kg = 570 kg = 0.570 tonnes` of CO2e for all the energy used. 
+`1900kWh * 0.3 kg = 570 kg = 0.570 tonnes` of CO2e for all the energy used.
 
 Comparing this to a very short flight, London Heathrow to Dublin, Ireland: One economy round-trip flight would be 0.420 tonnes. Two of us were on this trip, so both of us flying return to Dublin would have emitted more CO2. <sup>[2]</sup>
 
@@ -85,13 +86,13 @@ Despite encountering a couple of minor hiccups, it's crucial to emphasize that t
 
 However, there's always room for improvement. Based on our experiences, we've identified two key areas for enhancement:
 
-1. **Expand Ultra-Charging Networks:** 
+1. **Expand Ultra-Charging Networks:**
    - Tell more people that the Tesla Supercharger network is mostly open to any EV to use, esspecially in Europe.
    - Continue aggressive expansion of fast-charging infrastructure
    - Focus on strategic placement in areas with currently limited options, such as northern Poland.
    - Ensure adequate capacity at popular stopover points to prevent queuing.
 
-2. **Standardize EV Amenity Descriptions:** 
+2. **Standardize EV Amenity Descriptions:**
    - Platforms like Airbnb should implement stricter guidelines for hosts advertising EV charging.
    - Clear definitions of what constitutes a functional EV charger are needed.
    - Hosts should be required to provide specific details about charger type, power output, and accessibility.
@@ -103,7 +104,7 @@ These improvements would further streamline the EV road trip experience, making 
 
 Is it true that the 'infrastructure just isn't there yet'? No! Over 10,000km, we found an EV to be perfect for a road trip. Charging, while not perfect, is pretty close. Unlike our EV road trips a few years ago, we did barely any planning of routes and simply relied on finding chargers during our natural breaks from driving. Chargers at hotels and Airbnbs are fairly common, and you often get surprised by one that you didn't know existed.
 
-So, yes, the infrastructure is there, and a long EV road trip is a surprisingly low-cost and low-carbon way to travel. 
+So, yes, the infrastructure is there, and a long EV road trip is a surprisingly low-cost and low-carbon way to travel.
 
 Get out there and explore!
 

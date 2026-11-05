@@ -1,0 +1,376 @@
+/* Base
+   ========================================================================== */
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+  border-top: 3px solid #27a822;
+}
+
+/* Wrapper for page content to push down footer */
+#content {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -69px;
+  /* Pad bottom by footer height */
+  padding: 0 0 69px;
+}
+
+#about {
+  font-size: 1.5rem;
+}
+
+/* Navbar
+   ========================================================================== */
+
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus,
+.navbar .navbar-link,
+.navbar .navbar-link:hover,
+.navbar .navbar-nav > li > a,
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-text,
+.navbar-toggler {
+  color: #6b6b6b;
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus,
+.navbar-nav > .open > a,
+.navbar-nav > .open > a:hover,
+.navbar-nav > .open > a:focus {
+  color: #6b6b6b;
+  background-color: #fff;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-collapse,
+.navbar-form {
+  border-color: #6b6b6b;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav .open .dropdown-menu > li > a {
+    color: #6b6b6b;
+  }
+
+  .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #6b6b6b;
+  }
+
+  .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #6b6b6b;
+    background-color: #fff;
+  }
+}
+
+/* Container
+   ========================================================================== */
+
+.container {
+  max-width: 800px;
+  text-align: center;
+}
+
+.container a {
+  color: #27a822;
+  text-decoration: none;
+}
+
+.container a:hover {
+  color: #267723;
+}
+
+.container p img,
+.img-responsive {
+  display: block;
+  height: auto;
+  margin: 2rem auto;
+  max-width: 100%;
+}
+
+/* Panels
+   ========================================================================== */
+
+.panel {
+  border-style: none;
+}
+
+.panel-body {
+  padding-top: 0;
+  text-align: left;
+}
+
+.panel h4 {
+  text-align: left;
+  line-height: 24px;
+  font-size: 22px;
+}
+
+.panel h5 {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.panel h6 {
+  font-size: 15px;
+}
+
+.panel h4 a,
+.panel h5 a {
+  color: #27a822;
+}
+
+.panel h4 a:hover,
+.panel h5 a:hover {
+  color: #267723;
+}
+
+/* Blog posts
+   ========================================================================== */
+
+.blogpost {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.blog-title {
+  padding-top: 2px;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+}
+
+.related-posts {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.related-posts h5 {
+  text-align: center;
+}
+
+.page-not-found {
+  padding-top: 20%;
+}
+
+/* Social links
+   ========================================================================== */
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.social-links {
+  display: block;
+  margin: 40px auto 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  animation: fade 1s ease 1s both;
+}
+
+.social-links li {
+  display: inline-block;
+  padding: 5px;
+  padding-top: 0;
+  text-align: center;
+}
+
+.social-links li a {
+  font-size: 20px;
+  color: #000;
+  padding: 10px;
+  padding-bottom: 4px;
+  transition: all .4s ease;
+}
+
+.social-links li a:hover {
+  color: #000;
+}
+
+/* Avatar
+   ========================================================================== */
+
+.avatar {
+  padding-top: 2vh;
+}
+
+.avatar img {
+  width: 25%;
+}
+
+/* Tables
+   ========================================================================== */
+
+th,
+td {
+  padding-right: 30px;
+}
+
+/* Cards
+   ========================================================================== */
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Add margin between cards on mobile */
+@media (max-width: 767px) {
+  .col {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Contact form
+   ========================================================================== */
+
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  appearance: none;
+}
+
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  appearance: button;
+}
+
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  appearance: radio;
+}
+
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
+
+/* Footer
+   ========================================================================== */
+
+.footer {
+  border-bottom: 5px solid #27a822;
+  padding: 20px 0;
+  text-decoration: none !important;
+}
