@@ -24,6 +24,15 @@ body {
   line-height: 1.6;
 }
 
+#about h1 {
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+#about p {
+  margin-bottom: 1.25rem;
+}
+
 /* Navbar
    ========================================================================== */
 
@@ -136,6 +145,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'Source Serif 4', Georgia, serif;
   font-weight: 600;
 }
 
