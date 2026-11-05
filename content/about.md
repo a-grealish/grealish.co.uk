@@ -16,7 +16,7 @@ With Ashley's technical leadership, ev.energy has become a world leading solutio
 ## [GemFair](https://gemfair.com/)
 At GemFair, Ashley led the development of a platform which ensures small scale diamond miners get paid a fair wage and get to work in safe, ethical conditions. The platform ensures that only the minerals found at certified sites can be registered. And ensures that traceability is maintained throughout the supply chain, all the way to end consumers.
 
-![Gemfair - Tracability, Empowerment and Fair Value](/img/gemfair.jpg)
+![Gemfair - Traceability, Empowerment and Fair Value](/img/gemfair.jpg)
 
 ## [BBOXX](https://bboxx.com)
 After getting involved in the offgrid energy sector at university, Ashley spent 5 years at BBOXX helping to transform the product offering to a range of products which made access to clean energy much more affordable and reliable. Over the 5 years, Ashley went from being hands-on with the early technologies to building a cross functional team to develop all areas of the hardware product offering and the cloud-based product management platform which enabled the pay-as-you-go functionality.

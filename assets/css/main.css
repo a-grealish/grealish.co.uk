@@ -33,6 +33,24 @@ body {
   margin-bottom: 1.25rem;
 }
 
+/* Impact band (homepage)
+   ========================================================================== */
+
+.impact-heading {
+  font-size: 1.6rem;
+  margin: 3rem 0 2rem;
+}
+
+.impact-band {
+  margin-bottom: 1rem;
+}
+
+.impact-fact {
+  font-size: 1.05rem;
+  line-height: 1.55;
+  margin-bottom: 0;
+}
+
 /* Navbar
    ========================================================================== */
 
