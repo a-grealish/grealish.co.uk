@@ -1,12 +1,13 @@
 ---
 author: Ashley Grealish
-category:
+categories:
 - sustainability
 - personal-projects
 date: "2014-01-01"
 description: "A student project to provide clean energy to all"
 tags: []
-thumbnail: /img/izuba-box.jpg
+images:
+- /img/izuba-box.jpg
 title: "e.quinox Izuba Box"
 ---
 

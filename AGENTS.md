@@ -9,11 +9,12 @@ Push to `main` branch. CI (`.github/workflows/deploy.yml`) builds and deploys to
 
 ## Structure
 - `content/` - Markdown content (blog posts, pages)
-- `static/` - Assets (images, CSS, files)
-- `layouts/` - Custom templates
-- `themes/hugo-sustain/` - Theme (git submodule)
+- `static/` - Images and downloadable files
+- `assets/css/main.css` - Site styles (built via the Hugo asset pipeline)
+- `layouts/` - All templates (the former hugo-sustain theme is inlined here)
 
 ## Notes
-- Theme is a git submodule - run `git submodule update --init` after clone
+- The site is self-contained: no theme submodule to init
 - `config.yaml` - Main Hugo config
 - Markdown in `content/` supports HTML (unsafe renderer enabled)
+- Colours live in CSS custom properties at the top of `assets/css/main.css`; dark mode follows `prefers-color-scheme`

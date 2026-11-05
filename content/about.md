@@ -1,6 +1,5 @@
 ---
 title: About
-layout: 'simple-page'
 ---
 
 Ashley is an Engineering Leader who has helped to grow start-up companies who want to make positive changes in the world. He specializes in building technology which interacts with the real world and in the past has built an IoT platform which has supported 100,000+ remotely connected devices. He is happy working across a technology stack from hardware and embedded firmware up to backend and frontend web-app development.

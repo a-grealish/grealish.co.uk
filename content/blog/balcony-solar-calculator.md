@@ -3,9 +3,10 @@ title: "Why Your Balcony Solar Savings Might Be Way Too Optimistic"
 date: 2026-04-19T19:01:01+01:00
 draft: false
 description: "Balcony solar marketing claims often massively overstate savings. Here's why, and how a new calculator can help you work out realistic figures for your home."
-category:
+categories:
 - sustainability
-thumbnail: /img/balconysolarenergy-thumb.jpg
+images:
+- /img/balconysolarenergy-thumb.jpg
 ---
 Balcony solar is finally arriving in the UK. After years of strong adoption in Germany and across Europe, we're starting to see these plug-and-play systems appear in British homes. It's genuinely exciting news for anyone interested in renewable energy and lower bills.
 
