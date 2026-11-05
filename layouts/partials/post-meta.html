@@ -1,5 +1,5 @@
 <p class="post-meta text-muted mb-2">
   {{ if not .Date.IsZero }}{{ partial "post-date.html" . }}{{ end }}
   {{ with .ReadingTime }} · {{ . }} min read{{ end }}
-  {{ with .GetTerms "tags" }}{{ range . }} <a href="{{ .RelPermalink }}" class="badge bg-success text-decoration-none">{{ .LinkTitle }}</a>{{ end }}{{ end }}
+  {{ with .GetTerms "tags" }}{{ range . }} <a href="{{ .RelPermalink }}" class="badge badge-tag text-decoration-none ms-1">{{ .LinkTitle }}</a>{{ end }}{{ end }}
 </p>

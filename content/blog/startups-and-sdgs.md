@@ -12,8 +12,6 @@ title: Startups and SDGs
 ---
 
 
-# Startups and SDGs
-
 ![UN Sustainable Development Goals](/img/un-sdgs.jpg)
 
 
@@ -46,7 +44,7 @@ To help you find mission-aligned opportunities, I've compiled a list of companie
 - [eWaterPay](https://www.ewater.services/)
 
 ## 7. Clean Energy
-- [bboxx](bboxx.com)
+- [bboxx](https://bboxx.com)
 
 ## 8. Good Education and Economic Growth
 - [Andela](https://buildforsdg.andela.com/)
@@ -55,7 +53,7 @@ To help you find mission-aligned opportunities, I've compiled a list of companie
 - [Hyperloop](https://hyperconnected.eu/)
 
 ## 10. Reduced Inequality
-The previously mentioned [Andela](andela.com), and [One Acre Fund](https://oneacrefund.org/) are both great examples in this area.
+The previously mentioned [Andela](https://andela.com), and [One Acre Fund](https://oneacrefund.org/) are both great examples in this area.
 
 ## 11. Sustainable Cities and Communities
 - [ConnectedKerb](https://www.connectedkerb.com/)

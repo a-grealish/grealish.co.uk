@@ -2,19 +2,20 @@
   {{ partial "header.html" . }}
 
   <div class="container">
-    <h1 class="h4 my-5">{{ .Title }}</h1>
+    <h1 class="page-title mt-3 mb-5">{{ .Title }}</h1>
     <div class="panel">
       <div class="panel-body">
+        {{ $showDates := or (eq .Kind "term") (eq .Kind "section") }}
         {{ range .Pages }}
           <div class="row mb-2">
             <div class="col-4">
               <p class="h5 text-end my-1">
-                {{ if not .Date.IsZero }}{{ partial "post-date.html" . }}{{ end }}
+                {{ if $showDates }}{{ if not .Date.IsZero }}{{ partial "post-date.html" . }}{{ end }}{{ end }}
               </p>
             </div>
             <div class="col-8">
               <p class="h5 text-start my-1">
-                <b><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></b>
+                <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
               </p>
             </div>
           </div>

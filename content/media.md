@@ -1,35 +1,34 @@
 ---
 title: Talks & Papers
-layout: 'simple-page'
 ---
 
-### Your Flat Called. It Wants a Battery.
+## Your Flat Called. It Wants a Battery.
 Energ'Ethic Podcast by Marine Cornelis
 <iframe width="800" height="420" src="https://www.youtube.com/embed/TbnvyMgRn2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 _________________
 
-### Tech for Good Podcast - Windfall Energy
+## Tech for Good Podcast - Windfall Energy
 Bethanl Green Ventures
 
 <iframe width="800" height="420" src="https://www.youtube.com/embed/DLLdyrCk-oU?si=ck6GN43Z6nLMiuUl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 _________________
 
-### High-Quality Hardware Integrations
+## High-Quality Hardware Integrations
 Enginears Podcast
 
 <iframe width="800" height="420" src="https://www.youtube.com/embed/jN7CxgTXtBQ?si=pxj9cn_BNXZzHcZF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 _________________
 
-### Intro to ev.energy
+## Intro to ev.energy
 Tech Talks Podcast
 <iframe width="800" height="420" src="https://www.youtube.com/embed/DnY01UKAfds?si=BVgRNC9dyGgeeE0l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 _________________
 
-### OCPP & UK Smart Charge Regulations
+## OCPP & UK Smart Charge Regulations
 Open Charge Alliance
 <iframe width="800" height="420" src="https://www.youtube.com/embed/zgNq3CsxHNg?si=C9Fy5W_YhfwA5dqj&amp;start=1095" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -37,13 +36,13 @@ Open Charge Alliance
 
 _________________
 
-### Using Technology to enable scalable off-grid Energy Access
+## Using Technology to enable scalable off-grid Energy Access
 ASME 2018 - Turbo Expo - June 2018 - Oslo
 ![Turbo Expo 2018](/img/turbo-expo-2018.jpg)
 
 _________________
 
-### Scalable off-grid energy services enabled by IoT: A case study of BBOXX SMART Solar
+## Scalable off-grid energy services enabled by IoT: A case study of BBOXX SMART Solar
 Energy Policy - Volume 109, October 2017, Pages 199-207
 
 *Abstract*
@@ -54,7 +53,7 @@ This case study intends to show how Internet of Things (IoT) technology can be u
 
 _________________
 
-### Development of a 'pay as you go' solar home system
+## Development of a 'pay as you go' solar home system
 Appropriate Technology - Volume 40, No 3, Page 26 - September 2013
 
 <embed src="/files/Appropriate_Technology_-_Volume_40.pdf" width="800" height="420"
@@ -64,7 +63,7 @@ Appropriate Technology - Volume 40, No 3, Page 26 - September 2013
 
 _________________
 
-### Experiences from Solar Battery Charging Kiosks in Rwanda
+## Experiences from Solar Battery Charging Kiosks in Rwanda
 3rd Symposium Small PV-Applications - Jun 2013 - Ulm, Germany
 
 [📝 Paper](/files/Experiences_from_Solar_Battery_Charging_Kiosks_in_Rwanda.pdf)
@@ -74,7 +73,7 @@ _________________
 _________________
 
 
-### Intelligent Solar Charge Controller for Domestic Off-grid Solar Systems
+## Intelligent Solar Charge Controller for Domestic Off-grid Solar Systems
 Master's Thesis - Imperial College - Electronic and Electrical Engineering
 
 [📝 Paper](/files/Final_Report.pdf)

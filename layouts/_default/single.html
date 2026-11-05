@@ -3,14 +3,12 @@
 
   <div class="container">
     <article class="panel">
-      {{ if not .Date.IsZero }}
-        <h1 class="h3 mt-3 mb-0"><b>{{ .Title }}</b></h1>
-        <div class="blog-title my-4">
+      <header class="post-header mt-3">
+        <h1 class="post-title">{{ .Title }}</h1>
+        {{ if not .Date.IsZero }}
           {{ partial "post-meta.html" . }}
-        </div>
-      {{ else }}
-        <h1 class="h3 mt-3 mb-0"><b>{{ .Title }}</b></h1>
-      {{ end }}
+        {{ end }}
+      </header>
       <div class="panel-body">
         <div class="blogpost">
           {{ .Content }}
@@ -18,7 +16,7 @@
           {{ $related := site.RegularPages.Related . | first 3 }}
           {{ with $related }}
             <div class="related-posts mt-4 py-3">
-              <h5 class="text-center">Related Posts</h5>
+              <h2 class="text-center related-title">Related Posts</h2>
               {{ range . }}
                 <div class="row">
                   <div class="col-4">
@@ -28,7 +26,7 @@
                   </div>
                   <div class="col-8">
                     <p class="h6 text-start my-1">
-                      <b><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></b>
+                      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
                     </p>
                   </div>
                 </div>

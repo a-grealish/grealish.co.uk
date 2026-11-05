@@ -20,7 +20,8 @@ body {
 }
 
 #about {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
+  line-height: 1.6;
 }
 
 /* Navbar
@@ -85,12 +86,12 @@ body {
 }
 
 .container a {
-  color: #27a822;
+  color: #1e7d1a;
   text-decoration: none;
 }
 
 .container a:hover {
-  color: #267723;
+  color: #146210;
 }
 
 .container p img,
@@ -113,30 +114,8 @@ body {
   text-align: left;
 }
 
-.panel h4 {
-  text-align: left;
-  line-height: 24px;
-  font-size: 22px;
-}
-
-.panel h5 {
-  text-align: left;
-  line-height: 30px;
-  font-size: 18px;
-}
-
-.panel h6 {
-  font-size: 15px;
-}
-
-.panel h4 a,
-.panel h5 a {
-  color: #27a822;
-}
-
-.panel h4 a:hover,
-.panel h5 a:hover {
-  color: #267723;
+.card-title {
+  font-size: 1.25rem;
 }
 
 /* Blog posts
@@ -148,12 +127,89 @@ body {
   font-size: 18px;
 }
 
-.blog-title {
-  padding-top: 2px;
+/* Headings and page titles
+   ========================================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+.page-title,
+.post-title {
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: -0.01em;
+}
+
+.post-title {
+  margin-bottom: .5rem;
+}
+
+.post-header {
+  margin-bottom: 2rem;
+}
+
+.post-header .post-meta {
+  margin-bottom: 0;
+}
+
+/* In-content heading rhythm */
+.blogpost h1 {
+  font-size: 1.6rem;
+  margin: 2.25rem 0 1rem;
+}
+
+.blogpost h2 {
+  font-size: 1.35rem;
+  margin: 2rem 0 .75rem;
+}
+
+.blogpost h3 {
+  font-size: 1.15rem;
+  margin: 1.5rem 0 .5rem;
+}
+
+.blogpost :is(h1, h2, h3):first-child {
+  margin-top: 0;
+}
+
+.panel-body .h5 a,
+.panel-body .h6 a {
+  font-weight: 600;
+}
+
+/* Links in running text need more than colour to be identifiable */
+.blogpost p a,
+#about p a,
+.footer .text-muted a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .post-meta {
   font-size: 0.9rem;
+}
+
+/* Tag badges: explicit white-on-dark-green so the generic link colour
+   (which outspecifies .badge) can never turn the text green-on-green */
+.post-meta .badge {
+  font-size: .8rem;
+}
+
+.post-meta .badge-tag {
+  color: #fff;
+  background-color: #146210;
+}
+
+.post-meta .badge-tag:hover,
+.post-meta .badge-tag:focus {
+  color: #fff;
+  background-color: #0f4d0b;
 }
 
 .related-posts {
@@ -161,8 +217,9 @@ body {
   border-bottom: 1px solid #eee;
 }
 
-.related-posts h5 {
-  text-align: center;
+.related-posts .related-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .page-not-found {
