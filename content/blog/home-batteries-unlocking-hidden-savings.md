@@ -1,11 +1,12 @@
 ---
 author: Ashley Grealish
-category:
+categories:
 - sustainability
 date: "2025-01-10"
 description: "Using small, portable batteries to save money on your home energy bill"
 tags: ["energy", "batteries"]
-thumbnail: /img/ecoflow/delta2-with-powerstream.jpg
+images:
+- /img/ecoflow/delta2-with-powerstream.jpg
 title: "Home Batteries: Unlocking Hidden Savings"
 ---
 
@@ -22,7 +23,7 @@ Whether you're a tech enthusiast, an eco-conscious homeowner, or simply looking 
 
 The EcoFlow Delta series comes with built-in AC outputs, making it versatile for powering various home appliances. For instance, you could power an entire home office setup - a laptop (45-100W), a monitor (20-100W), and a desk lamp (5-20W) - easily for a full day on a single charge of a 1kWh battery.
 
-To maximize savings, aim to use most of the battery's capacity each day. Here's a quick guide to estimate usage:
+To maximise savings, aim to use most of the battery's capacity each day. Here's a quick guide to estimate usage:
 
 1. Identify the power rating (in watts) of your devices.
 2. Multiply the watts by the hours of use to get watt-hours.
@@ -58,7 +59,7 @@ You’ll need:
 ![EcoFlow Delta 2 with a Powerstream micro-inverter, with two smartplugs](/img/ecoflow/delta2-with-powerstream.jpg)
 
 ## How much could I save?
-Calculate the potential savings for yourself. The biggest factor in your potential savings is the energy tariff or rate plan. I'm in the UK, and am using the Octopus Agile tariff. But, any tariff with seperate peak and off-peak pricing (time-of-use pricing) could work. Economoy 7 is a popular one, or there are a range of others targetting at EV owners. 
+Calculate the potential savings for yourself. The biggest factor in your potential savings is the energy tariff or rate plan. I'm in the UK, and am using the Octopus Agile tariff. But, any tariff with separate peak and off-peak pricing (time-of-use pricing) could work. Economy 7 is a popular one, or there are a range of others targeting at EV owners.
 
 <style>
     .calculator {
@@ -66,6 +67,10 @@ Calculate the potential savings for yourself. The biggest factor in your potenti
         padding: 20px;
         border: 2px solid black;
         box-sizing: border-box;
+        /* Forced light: the calculator keeps its own fixed colours so it
+           stays readable in dark mode without per-element overrides */
+        background-color: #ffffff;
+        color: #212529;
     }
     .row {
         display: flex;
@@ -108,6 +113,7 @@ Calculate the potential savings for yourself. The biggest factor in your potenti
         font-family: inherit;
         font-size: 16px;
         background-color: #ffffff;
+        color: #212529;
         box-sizing: border-box;
     }
     input[type="checkbox"] {
@@ -118,6 +124,7 @@ Calculate the potential savings for yourself. The biggest factor in your potenti
     input:focus, select:focus {
         outline: none;
         background-color: #f2ca00;
+        color: #212529;
     }
     #manual-capacity {
         display: none;
@@ -234,7 +241,7 @@ Calculate the potential savings for yourself. The biggest factor in your potenti
 
         // If current selection is not compatible with PowerStream, select first compatible option
         if (powerStreamInstalled && !ecoflowConfigs[select.value]?.powerStreamCompatible) {
-            select.value = Object.keys(ecoflowConfigs).find(key => 
+            select.value = Object.keys(ecoflowConfigs).find(key =>
                 ecoflowConfigs[key].powerStreamCompatible
             );
         }
@@ -298,17 +305,17 @@ Calculate the potential savings for yourself. The biggest factor in your potenti
 
 <br>
 
-## Optimizing with Smart Plugs
+## Optimising with Smart Plugs
 
 Smart plugs are crucial for automating your battery's charge and discharge cycles. While basic timer-based scheduling can be effective, integrating with real-time energy data can significantly enhance both cost savings and environmental benefits.
 
-[Windfall Energy](https://www.windfallenergy.com) plugs offer an advanced solution for optimizing home battery systems like EcoFlow. These plugs provide:
+[Windfall Energy](https://www.windfallenergy.com) plugs offer an advanced solution for optimising home battery systems like EcoFlow. These plugs provide:
 
 1. Real-time integration with grid data and energy prices
 2. Dynamic charging based on energy availability and cost
 3. Intelligent discharging during peak demand times
 4. Compatibility with various battery systems, including EcoFlow
 
-By leveraging real-time data, Windfall Energy plugs can help ensure your battery is charged when energy is greenest and cheapest, and used when it's most beneficial. This approach not only aims to maximize your energy savings but also contributes to overall grid stability and reduced carbon emissions.
+By leveraging real-time data, Windfall Energy plugs can help ensure your battery is charged when energy is greenest and cheapest, and used when it's most beneficial. This approach not only aims to maximise your energy savings but also contributes to overall grid stability and reduced carbon emissions.
 
 For those looking to get the most out of their EcoFlow system, exploring smart plug options that offer advanced energy management features can be a worthwhile consideration. To learn more about how smart plugs can enhance your home energy strategy, you can visit [www.windfallenergy.com](https://www.windfallenergy.com).

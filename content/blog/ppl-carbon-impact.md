@@ -5,8 +5,9 @@ categories:
 date: "2022-05-15"
 description: An analysis of the carbon impact of completing a PPL. And, what can you
   do to reduce it
-tags: []
-thumbnail: /img/wind-farm.jpg
+tags: ["aviation", "carbon", "sustainability"]
+images:
+- /img/wind-farm.jpg
 title: The Carbon Impact of a Private Pilot Licence (PPL)
 ---
 

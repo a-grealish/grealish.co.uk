@@ -3,9 +3,11 @@ title: "Why Your Balcony Solar Savings Might Be Way Too Optimistic"
 date: 2026-04-19T19:01:01+01:00
 draft: false
 description: "Balcony solar marketing claims often massively overstate savings. Here's why, and how a new calculator can help you work out realistic figures for your home."
-category:
+categories:
 - sustainability
-thumbnail: /img/balconysolarenergy-thumb.jpg
+images:
+- /img/balconysolarenergy-thumb.jpg
+tags: ["solar", "energy", "savings"]
 ---
 Balcony solar is finally arriving in the UK. After years of strong adoption in Germany and across Europe, we're starting to see these plug-and-play systems appear in British homes. It's genuinely exciting news for anyone interested in renewable energy and lower bills.
 
@@ -18,7 +20,7 @@ But there's a problem. In all the enthusiasm, the maths is starting to look rath
 
 You've probably seen posts claiming that an 800W balcony solar kit will save you money, some might claim over £600 per year! It's an attractive figure, but it's based on a pretty dodgy assumption: that your panels will get 8 hours of peak sun, every single day, without fail.
 
-Anyone who lives in the UK knows this isn't realistic. Despite the occasional sunny stretch, we simply don't get that much consistent sunlight. It's one of those numbers that sounds good in marketing copy but dissapoints after installation.
+Anyone who lives in the UK knows this isn't realistic. Despite the occasional sunny stretch, we simply don't get that much consistent sunlight. It's one of those numbers that sounds good in marketing copy but disappoints after installation.
 
 The government's own estimate of £70 to £150 per year is far more grounded. The problem is that it's such a wide range. That gap between the low and high estimate can actually double your payback time, which makes a real difference to whether a system makes financial sense for your particular situation.
 

@@ -1,32 +1,43 @@
-name: Push to GitHub Pages on push to main
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
       - main
 
-env:
-  # Override the default GITHUB_TOKEN to allow deploy to another repo
-  GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: true
 
 jobs:
-  build:
-    name: Deploy
+  deploy:
+    name: Build and deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main
-        uses: actions/checkout@v1
-        with:
-          # Fetch Hugo themes
-          submodules: true
+      - name: Checkout
+        # actions/checkout v7.0.1
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
 
-      - name: Deploy the site
-        uses: benmatselby/hugo-deploy-gh-pages@master
-        env:
-          # Leave undefined to pull the latest version
-          # HUGO_VERSION: 0.154.5
-          TARGET_REPO: a-grealish/a-grealish.github.io
-          TARGET_BRANCH: main
-          # Custom args not needed
-          # HUGO_ARGS: '-t hugo-sustain'
-          CNAME: grealish.co.uk
+      - name: Set up Hugo
+        # peaceiris/actions-hugo v3.2.1
+        uses: peaceiris/actions-hugo@2752ce1d29631191ea3f27c23495fa06139a5b78
+        with:
+          hugo-version: '0.169.0'
+          extended: true
+
+      - name: Build
+        run: hugo --gc --minify
+
+      - name: Deploy
+        # peaceiris/actions-gh-pages v4.1.0
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453
+        with:
+          personal_token: ${{ secrets.DEPLOY_TOKEN }}
+          external_repository: a-grealish/a-grealish.github.io
+          publish_branch: main
+          publish_dir: ./public
+          cname: grealish.co.uk
+          force_orphan: true

@@ -1,38 +1,41 @@
 baseURL: 'https://grealish.co.uk/'
-languageCode: en-GB
+locale: en-GB
+timeZone: Europe/London
 title: Ashley Grealish
-theme: hugo-sustain
-permalinks:
-  post: '/:year/:month/:day/:slug'
+mainSections: ["blog"]
+
 params:
   avatar: /img/headshot-3.jpg
   author: Ashley Grealish
-  description: About Ashley Grealish - Enginering Leader using tech for good
-  custom_css:
-    - main.css
-  custom_js: []
+  description: About Ashley Grealish - Engineering Leader using tech for good
   social:
     Github: a-grealish
     LinkedIn: agrealish
+
 markup:
   goldmark:
     renderer:
       unsafe: true
+
+related:
+  includeNewer: false
+  indices:
+    - name: categories
+      weight: 100
+    - name: tags
+      weight: 80
+
 menu:
   main:
     - name: Work
-      identifier: about
+      pageRef: /about
       weight: 100
-      url: /about/
     - name: Talks
-      identifier: media
+      pageRef: /media
       weight: 200
-      url: /media/
     - name: Blog
-      identifier: blog
+      pageRef: /blog
       weight: 400
-      url: /blog/
-    - name: contact
+    - name: Contact
+      pageRef: /contact
       weight: 500
-      identifier: contact
-      url: /contact/

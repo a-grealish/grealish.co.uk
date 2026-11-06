@@ -1,14 +1,13 @@
 ---
 title: About
-layout: 'simple-page'
 ---
 
-Ashley is a Engineering Leader who has helped to grow start-up companies who want to make postivie changes in the world. He specalizes in building technology which interacts with the real world and in the past has built an IoT platform which has supports 100,000+ remotely connected devices. He is happy working across a technology stack from hardware and embedded firmware up to backend and frontend web-app development.
+Ashley is an Engineering Leader who has helped to grow start-up companies who want to make positive changes in the world. He specialises in building technology which interacts with the real world and in the past has built an IoT platform which has supported 100,000+ remotely connected devices. He is happy working across a technology stack from hardware and embedded firmware up to backend and frontend web-app development.
 
 ## [ev.energy](https://ev.energy)
-Ashley is the CTO (Interim) & VP of Engineering at ev.energy, joining at the early stages of the company to build a scalable solution for charging electric vehicles. He leads the fast-growing, and cross-discipline engineering team. He oversees the people side of the engineering team. Covering the design of team structure, setting objectives, performance reviews and hiring. On the technical side, Ashley sets the long-term technology strategy and oversees the implementation of best development practise .  
+Ashley was the CTO (Interim) & VP of Engineering at ev.energy, joining at the early stages of the company to build a scalable solution for charging electric vehicles. He led the fast-growing, and cross-discipline engineering team. He oversaw the people side of the engineering team, covering the design of team structure, setting objectives, performance reviews and hiring. On the technical side, Ashley set the long-term technology strategy and oversaw the implementation of best development practice.  
 
-With Ashley's technical leadership, ev.energy has become a world leading solution for managing the charging of electric vehicles. The global solution brings down the cost and carbon emissions of charging and transforms the electrification of  transportation from a marginal carbon reduction to a vast reduction in emissions from the sector.
+With Ashley's technical leadership, ev.energy has become a world leading solution for managing the charging of electric vehicles. The global solution brings down the cost and carbon emissions of charging and transforms the electrification of transportation from a marginal carbon reduction to a vast reduction in emissions from the sector.
 
 ![Impact of smart charging](/img/smart-charging.jpg)
 
@@ -16,10 +15,10 @@ With Ashley's technical leadership, ev.energy has become a world leading solutio
 ## [GemFair](https://gemfair.com/)
 At GemFair, Ashley led the development of a platform which ensures small scale diamond miners get paid a fair wage and get to work in safe, ethical conditions. The platform ensures that only the minerals found at certified sites can be registered. And ensures that traceability is maintained throughout the supply chain, all the way to end consumers.
 
-![Gemfair - Tracability, Empowerment and Fair Value](/img/gemfair.jpg)
+![Gemfair - Traceability, Empowerment and Fair Value](/img/gemfair.jpg)
 
 ## [BBOXX](https://bboxx.com)
-After getting involved in the offgrid energy sector at univestity, Ashley spent 5 years at BBOXX helping to transform the product offering to a range of products which made access to clean energy much more affordable and reliable. Over the 5 years, Ashley went from being hands-on with the early technologies to building a cross functional team to develop all areas of the hardware product offering and the cloud-based product managment platform which eanbled the pay-as-you-go functionlity.
+After getting involved in the offgrid energy sector at university, Ashley spent 5 years at BBOXX helping to transform the product offering to a range of products which made access to clean energy much more affordable and reliable. Over the 5 years, Ashley went from being hands-on with the early technologies to building a cross functional team to develop all areas of the hardware product offering and the cloud-based product management platform which enabled the pay-as-you-go functionality.
 
 The industry leading BBOXX Home product was developed by Ashley and his team and was produced in large volumes to electrify 100,000s of homes.
 
@@ -27,7 +26,7 @@ The industry leading BBOXX Home product was developed by Ashley and his team and
 
 
 ## [ARM](https://www.arm.com/)
-During 2012 Ashley interned at ARM where he spend two months making a simulation a display buffer to help customers optimise their SoCs for a range of displays.
+During 2012 Ashley interned at ARM where he spent two months making a simulation a display buffer to help customers optimise their SoCs for a range of displays.
 
 ## [Applied Relay Testing](http://www.appliedrelaytesting.co.uk/)
-Developed a USB High-Speed interface card to replace a legacy parrallel port card. The main work was to develop the USB High-Speed compatible firmware to achieve the required data transfer bandwidth for the test data capture.
+Developed a USB High-Speed interface card to replace a legacy parallel port card. The main work was to develop the USB High-Speed compatible firmware to achieve the required data transfer bandwidth for the test data capture.

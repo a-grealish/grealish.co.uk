@@ -1,17 +1,16 @@
 ---
 author: Ashley Grealish
-category:
+categories:
 - sustainability
 date: "2022-09-05"
-description: A list of interesting organisations working achieving the UN Sustainable
+description: A list of interesting organisations working towards achieving the UN Sustainable
   Development Goals
-tags: []
-thumbnail: /img/un-sdgs.jpg
+tags: ["sustainability", "startups"]
+images:
+- /img/un-sdgs.jpg
 title: Startups and SDGs
 ---
 
-
-# Startups and SDGs
 
 ![UN Sustainable Development Goals](/img/un-sdgs.jpg)
 
@@ -22,7 +21,7 @@ The role of an engineer is fundamentally about solving problems and creating cha
 
 The UN SDGs provide a valuable framework for identifying areas where your skills as an electronics engineer are most needed. These 17 goals lay out a roadmap for tackling global challenges like poverty, inequality, climate change, and more. By choosing to work on projects and at companies that align with these goals, you can contribute to creating a more sustainable, equitable world.
 
-To help you find mission-aligned opportunities, I've compiled a list of companies whose work advances each of the SDGs. From renewable energy startups to biomedical device manufacturers to organizations expanding internet access, there are many impactful workplaces where you can put your engineering skills to use for good.
+To help you find mission-aligned opportunities, I've compiled a list of companies whose work advances each of the SDGs. From renewable energy startups to biomedical device manufacturers to organisations expanding internet access, there are many impactful workplaces where you can put your engineering skills to use for good.
 
 ## 1. No Poverty
 - [lendahand](https://www.lendahand.com/en-EU)
@@ -45,7 +44,7 @@ To help you find mission-aligned opportunities, I've compiled a list of companie
 - [eWaterPay](https://www.ewater.services/)
 
 ## 7. Clean Energy
-- [bboxx](bboxx.com)
+- [bboxx](https://bboxx.com)
 
 ## 8. Good Education and Economic Growth
 - [Andela](https://buildforsdg.andela.com/)
@@ -54,7 +53,7 @@ To help you find mission-aligned opportunities, I've compiled a list of companie
 - [Hyperloop](https://hyperconnected.eu/)
 
 ## 10. Reduced Inequality
-The previously mentioned [Andela](andela.com), and [One Acre Fund](https://oneacrefund.org/) are both great examples in this area.
+The previously mentioned [Andela](https://andela.com), and [One Acre Fund](https://oneacrefund.org/) are both great examples in this area.
 
 ## 11. Sustainable Cities and Communities
 - [ConnectedKerb](https://www.connectedkerb.com/)
