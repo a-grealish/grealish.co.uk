@@ -21,7 +21,7 @@ The role of an engineer is fundamentally about solving problems and creating cha
 
 The UN SDGs provide a valuable framework for identifying areas where your skills as an electronics engineer are most needed. These 17 goals lay out a roadmap for tackling global challenges like poverty, inequality, climate change, and more. By choosing to work on projects and at companies that align with these goals, you can contribute to creating a more sustainable, equitable world.
 
-To help you find mission-aligned opportunities, I've compiled a list of companies whose work advances each of the SDGs. From renewable energy startups to biomedical device manufacturers to organizations expanding internet access, there are many impactful workplaces where you can put your engineering skills to use for good.
+To help you find mission-aligned opportunities, I've compiled a list of companies whose work advances each of the SDGs. From renewable energy startups to biomedical device manufacturers to organisations expanding internet access, there are many impactful workplaces where you can put your engineering skills to use for good.
 
 ## 1. No Poverty
 - [lendahand](https://www.lendahand.com/en-EU)

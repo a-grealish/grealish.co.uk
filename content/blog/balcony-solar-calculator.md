@@ -20,7 +20,7 @@ But there's a problem. In all the enthusiasm, the maths is starting to look rath
 
 You've probably seen posts claiming that an 800W balcony solar kit will save you money, some might claim over £600 per year! It's an attractive figure, but it's based on a pretty dodgy assumption: that your panels will get 8 hours of peak sun, every single day, without fail.
 
-Anyone who lives in the UK knows this isn't realistic. Despite the occasional sunny stretch, we simply don't get that much consistent sunlight. It's one of those numbers that sounds good in marketing copy but dissapoints after installation.
+Anyone who lives in the UK knows this isn't realistic. Despite the occasional sunny stretch, we simply don't get that much consistent sunlight. It's one of those numbers that sounds good in marketing copy but disappoints after installation.
 
 The government's own estimate of £70 to £150 per year is far more grounded. The problem is that it's such a wide range. That gap between the low and high estimate can actually double your payback time, which makes a real difference to whether a system makes financial sense for your particular situation.
 

@@ -2,10 +2,10 @@
 title: About
 ---
 
-Ashley is an Engineering Leader who has helped to grow start-up companies who want to make positive changes in the world. He specializes in building technology which interacts with the real world and in the past has built an IoT platform which has supported 100,000+ remotely connected devices. He is happy working across a technology stack from hardware and embedded firmware up to backend and frontend web-app development.
+Ashley is an Engineering Leader who has helped to grow start-up companies who want to make positive changes in the world. He specialises in building technology which interacts with the real world and in the past has built an IoT platform which has supported 100,000+ remotely connected devices. He is happy working across a technology stack from hardware and embedded firmware up to backend and frontend web-app development.
 
 ## [ev.energy](https://ev.energy)
-Ashley is the CTO (Interim) & VP of Engineering at ev.energy, joining at the early stages of the company to build a scalable solution for charging electric vehicles. He leads the fast-growing, and cross-discipline engineering team. He oversees the people side of the engineering team. Covering the design of team structure, setting objectives, performance reviews and hiring. On the technical side, Ashley sets the long-term technology strategy and oversees the implementation of best development practise.  
+Ashley was the CTO (Interim) & VP of Engineering at ev.energy, joining at the early stages of the company to build a scalable solution for charging electric vehicles. He led the fast-growing, and cross-discipline engineering team. He oversaw the people side of the engineering team, covering the design of team structure, setting objectives, performance reviews and hiring. On the technical side, Ashley set the long-term technology strategy and oversaw the implementation of best development practice.  
 
 With Ashley's technical leadership, ev.energy has become a world leading solution for managing the charging of electric vehicles. The global solution brings down the cost and carbon emissions of charging and transforms the electrification of transportation from a marginal carbon reduction to a vast reduction in emissions from the sector.
 

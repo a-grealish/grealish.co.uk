@@ -20,7 +20,7 @@ So, make yourself comfortable as we set off on this electrifying journey across 
 
 ## The Trip Overview
 
-Our route took us from London, across the ferry to France, then swiftly up through The Netherlands into Denmark. We hopped on another ferry to the southern tip of Norway, then slowed down for a scenic drive up the fjords. After 1,250km up the west coast to Kristiansund, we turned back to head into Sweden via Oslo, then onto a ferry to western Poland. We journeyed down through Poland and into Romania, where we spent some time exploring Transylvania at the easternmost point of our trip. Heading west, we traveled through Serbia and Croatia into the Alps region, visiting friends in Austria and northern Italy. The final leg took us up to Luxembourg and back on a ferry from France to the UK. In total, we covered just over 10,000 km.
+Our route took us from London, across the ferry to France, then swiftly up through The Netherlands into Denmark. We hopped on another ferry to the southern tip of Norway, then slowed down for a scenic drive up the fjords. After 1,250km up the west coast to Kristiansund, we turned back to head into Sweden via Oslo, then onto a ferry to western Poland. We journeyed down through Poland and into Romania, where we spent some time exploring Transylvania at the easternmost point of our trip. Heading west, we travelled through Serbia and Croatia into the Alps region, visiting friends in Austria and northern Italy. The final leg took us up to Luxembourg and back on a ferry from France to the UK. In total, we covered just over 10,000 km.
 
 ![Map of the full route](/img/eu-roadtrip/route-wide.jpg)
 
