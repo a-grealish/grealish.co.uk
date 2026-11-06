@@ -5,7 +5,7 @@ categories:
 - personal-projects
 date: "2014-01-01"
 description: "A student project to provide clean energy to all"
-tags: []
+tags: ["solar", "off-grid", "batteries"]
 images:
 - /img/izuba-box.jpg
 title: "e.quinox Izuba Box"

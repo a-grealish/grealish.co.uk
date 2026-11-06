@@ -4,7 +4,7 @@ categories:
 - personal-projects
 date: "2022-05-11"
 description: "A small personal project for Sim Racers"
-tags: []
+tags: ["data"]
 images:
 - /img/race-engineer/race-session.png
 title: "Race Engineer"

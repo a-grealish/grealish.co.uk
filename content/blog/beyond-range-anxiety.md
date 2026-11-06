@@ -4,7 +4,7 @@ categories:
 - sustainability
 date: "2024-09-29"
 description: "An eye-opening account of how far EV technology and infrastructure have come, told through an ambitious cross-continental road trip."
-tags: []
+tags: ["ev", "charging"]
 images:
 - /img/eu-roadtrip/thumbnail.jpg
 title: "Beyond Range Anxiety: Conquering Europe in an EV"

@@ -5,7 +5,7 @@ categories:
 date: "2022-09-05"
 description: A list of interesting organisations working towards achieving the UN Sustainable
   Development Goals
-tags: []
+tags: ["sustainability", "startups"]
 images:
 - /img/un-sdgs.jpg
 title: Startups and SDGs

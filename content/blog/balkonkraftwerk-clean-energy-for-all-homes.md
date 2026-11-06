@@ -4,7 +4,7 @@ categories:
 - sustainability
 date: "2024-12-01"
 description: "Discover how balcony-based power generation is transforming the way households generate and consume energy."
-tags: []
+tags: ["solar", "energy"]
 images:
 - /img/balkonkraftwerk.jpg
 title: "Balkonkraftwerk: Clean Energy for All Homes"

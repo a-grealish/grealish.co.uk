@@ -7,6 +7,7 @@ categories:
 - sustainability
 images:
 - /img/balconysolarenergy-thumb.jpg
+tags: ["solar", "energy", "savings"]
 ---
 Balcony solar is finally arriving in the UK. After years of strong adoption in Germany and across Europe, we're starting to see these plug-and-play systems appear in British homes. It's genuinely exciting news for anyone interested in renewable energy and lower bills.
 
