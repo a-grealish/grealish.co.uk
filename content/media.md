@@ -2,6 +2,17 @@
 title: Talks & Papers
 ---
 
+## Windfall Energy - Ashley Grealish
+Sustainable Founders Podcast - Season 4, Episode 7 - November 2026
+
+<img src="/img/sustainable-founders-windfall.jpg" alt="Sustainable Founders podcast: S4 E7 Windfall Energy with Ashley Grealish" width="1920" height="1080" loading="lazy">
+
+Ashley talks to Raakhee about creating something he wished existed for himself and his peers, how a test-and-learn approach changed their entire product, and how he registered the company after unexpectedly being accepted into an accelerator programme.
+
+[🎧 Listen on Apple Podcasts](https://podcasts.apple.com/gb/podcast/s4-e7-windfall-energy-ashley-grealish/id1711561552?i=1000799560497)
+
+_________________
+
 ## Your Flat Called. It Wants a Battery.
 Energ'Ethic Podcast by Marine Cornelis
 <iframe width="800" height="420" src="https://www.youtube.com/embed/TbnvyMgRn2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

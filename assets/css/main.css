@@ -215,6 +215,7 @@ h6 {
 }
 
 .container p img,
+.container img:not(.card-img-top):not(.rounded-circle),
 .img-responsive {
   display: block;
   height: auto;
