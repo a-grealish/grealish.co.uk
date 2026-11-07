@@ -1,0 +1,54 @@
+{{/* One media item card for the /media/ grid. Thumbnails are fetched at
+     build time (YouTube: maxres → hq → icon placeholder) so the site has no
+     runtime dependency on i.ytimg.com. */}}
+{{ $thumb := "" }}
+{{ if .Params.youtube }}
+  {{ $max := try (resources.GetRemote (printf "https://i.ytimg.com/vi/%s/maxresdefault.jpg" .Params.youtube)) }}
+  {{ $hq := try (resources.GetRemote (printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" .Params.youtube)) }}
+  {{ if not $max.Err }}
+    {{ $thumb = resources.Copy (printf "media/thumbs/%s.jpg" .Params.youtube) $max.Value }}
+  {{ else if not $hq.Err }}
+    {{ $thumb = resources.Copy (printf "media/thumbs/%s.jpg" .Params.youtube) $hq.Value }}
+  {{ end }}
+{{ else if .Params.image }}
+  {{ with .Resources.GetMatch .Params.image }}
+    {{ $thumb = . }}
+  {{ end }}
+{{ end }}
+
+<div class="media-card">
+  <a href="{{ .RelPermalink }}" class="media-thumb-link" aria-label="{{ .Title }}">
+    <div class="media-thumb">
+      {{ with $thumb }}
+        <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" width="{{ .Width }}" height="{{ .Height }}" loading="lazy">
+      {{ else }}
+        <span class="media-thumb-icon" aria-hidden="true">
+          {{ $icon := "fa-file-lines" }}
+          {{ if eq (index $.Params.types 0) "podcast" }}{{ $icon = "fa-microphone" }}
+          {{ else if eq (index $.Params.types 0) "talk" }}{{ $icon = "fa-person-chalkboard" }}
+          {{ else if eq (index $.Params.types 0) "thesis" }}{{ $icon = "fa-graduation-cap" }}
+          {{ end }}
+          <i class="fa-solid {{ $icon }}"></i>
+        </span>
+      {{ end }}
+      {{ if .Params.youtube }}
+        <div class="media-thumb-overlay">
+          <i class="fa-solid fa-play-circle" aria-hidden="true"></i>
+        </div>
+      {{ end }}
+    </div>
+  </a>
+  <div class="media-card-body">
+    <h2 class="media-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p class="media-card-venue">
+      {{ .Params.venue }} &middot;
+      {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>{{ end }}
+    </p>
+    <div class="post-tags mb-2">
+      <a href="{{ (site.GetPage (printf "/types/%s" (index .Params.types 0))).RelPermalink }}" class="badge badge-tag">{{ index .Params.types 0 }}</a>
+      {{ range first 3 .Params.tags }}
+        <a href="/tags/{{ . | urlize }}/" class="badge badge-tag">{{ . }}</a>
+      {{ end }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+{{ define "main" }}
+  {{ partial "header.html" . }}
+
+  <div class="container">
+    <h1 class="page-title mt-3 mb-5">{{ .Title }}</h1>
+    {{ .Content }}
+
+    <div class="media-filters mb-4">
+      <a href="{{ .RelPermalink }}" class="badge badge-tag">All</a>
+      {{ range .Site.Taxonomies.types.Alphabetical }}
+        <a href="{{ .Page.RelPermalink }}" class="badge">{{ .Page.Title }}</a>
+      {{ end }}
+    </div>
+
+    <div class="media-grid">
+      {{ range .Pages }}
+        {{ partial "media-card.html" . }}
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

@@ -1,0 +1,63 @@
+{{ define "main" }}
+  {{ partial "header.html" . }}
+
+  <div class="container">
+    <article class="panel">
+      <header class="post-header mt-3">
+        <h1 class="post-title">{{ .Title }}</h1>
+        {{ partial "media-meta.html" . }}
+      </header>
+      <div class="panel-body">
+        <div class="blogpost">
+          {{ .Content }}
+
+          {{ if .Params.youtube }}
+            {{ $start := "" }}
+            {{ with .Params.start }}{{ $start = printf "?start=%d" . }}{{ end }}
+            <div class="ratio ratio-16x9 media-embed">
+              <iframe src="https://www.youtube-nocookie.com/embed/{{ .Params.youtube }}{{ $start }}" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          {{ else if .Params.pdf }}
+            <embed src="{{ .Params.pdf }}" type="application/pdf" class="media-pdf" aria-label="PDF viewer for {{ .Title }}">
+          {{ else if .Params.image }}
+            {{ with .Resources.GetMatch .Params.image }}
+              <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" width="{{ .Width }}" height="{{ .Height }}">
+            {{ end }}
+          {{ end }}
+
+          {{ with .Params.links }}
+            <div class="media-links mt-4">
+              {{ range . }}
+                <a href="{{ .url }}" class="media-action me-2 mb-2">{{ .label }}</a>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </article>
+
+    {{ $related := site.RegularPages.Related . | first 3 }}
+    {{ with $related }}
+      <div class="related-posts mt-4 py-3">
+        <h2 class="text-center related-title">Related</h2>
+        {{ range . }}
+          <div class="row mb-2">
+            <div class="col-4">
+              <p class="h6 text-end my-1">
+                {{ if not .Date.IsZero }}{{ partial "post-date.html" . }}{{ end }}
+                {{ if eq .Section "media" }}
+                  <span class="badge badge-tag ms-2">{{ index .Params.types 0 }}</span>
+                {{ end }}
+              </p>
+            </div>
+            <div class="col-8">
+              <p class="h6 text-start my-1">
+                <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+              </p>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+{{ end }}
