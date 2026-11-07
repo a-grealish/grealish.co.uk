@@ -15,7 +15,7 @@
             {{ $start := "" }}
             {{ with .Params.start }}{{ $start = printf "?start=%d" . }}{{ end }}
             <div class="ratio ratio-16x9 media-embed">
-              <iframe src="https://www.youtube-nocookie.com/embed/{{ .Params.youtube }}{{ $start }}" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe src="https://www.youtube-nocookie.com/embed/{{ .Params.youtube }}{{ $start }}" title="{{ .Title }}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
           {{ else if .Params.pdf }}
             <embed src="{{ .Params.pdf }}" type="application/pdf" class="media-pdf" aria-label="PDF viewer for {{ .Title }}">
