@@ -16,6 +16,11 @@
             <div class="col-8">
               <p class="h5 text-start my-1">
                 <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+                {{ if eq .Section "media" }}
+                  {{ with index .Params.types 0 }}
+                    <span class="badge badge-tag ms-1">{{ . }}</span>
+                  {{ end }}
+                {{ end }}
               </p>
             </div>
           </div>

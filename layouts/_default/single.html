@@ -16,7 +16,7 @@
           {{ $related := site.RegularPages.Related . | first 3 }}
           {{ with $related }}
             <div class="related-posts mt-4 py-3">
-              <h2 class="text-center related-title">Related Posts</h2>
+              <h2 class="text-center related-title">Related</h2>
               {{ range . }}
                 <div class="row">
                   <div class="col-4">
@@ -27,6 +27,11 @@
                   <div class="col-8">
                     <p class="h6 text-start my-1">
                       <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+                      {{ if eq .Section "media" }}
+                        {{ with index .Params.types 0 }}
+                          <span class="badge badge-tag ms-1">{{ . }}</span>
+                        {{ end }}
+                      {{ end }}
                     </p>
                   </div>
                 </div>

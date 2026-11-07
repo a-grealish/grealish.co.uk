@@ -1,0 +1,18 @@
+<div class="post-meta">
+  {{ $type := "" }}
+  {{ with .Params.types }}{{ $type = index . 0 }}{{ end }}
+  <div class="post-tags mb-2">
+    {{ with $type }}
+      <span class="badge badge-tag">{{ . }}</span>
+    {{ end }}
+    {{ range .Params.tags }}
+      <a href="/tags/{{ . | urlize }}/" class="badge badge-tag">{{ . }}</a>
+    {{ end }}
+  </div>
+  <p>
+    {{ .Params.venue }} &middot;
+    {{ if not .Date.IsZero }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+    {{ end }}
+  </p>
+</div>

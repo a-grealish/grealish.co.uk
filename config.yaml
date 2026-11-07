@@ -17,8 +17,13 @@ markup:
     renderer:
       unsafe: true
 
+taxonomies:
+  tag: tags
+  category: categories
+  mediatype: types
+
 related:
-  includeNewer: false
+  includeNewer: true
   indices:
     - name: categories
       weight: 100
